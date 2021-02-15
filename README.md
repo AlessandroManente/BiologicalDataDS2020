@@ -16,6 +16,8 @@ All the remaining operations were executed using a Linux x64 machine, launching 
 
 All the files needed to execute the code that are not in the _data_ folder are hosted in this OneDrive folder: <https://1drv.ms/u/s!AqCB-obyBHqxhfwhorLjh3IIyPBAlA?e=VSBgFo>
 
+To execute all the project to test all the computations, delete all the data in the `parsed` subfolders in `data/part_1/HMMs` and `data/part_1/PSSMs`.
+
 ## Structure of the Project
 
 The main file of the project is `Project.ipynb`, in here all the steps we have done can be followed and executed again.
