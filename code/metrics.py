@@ -577,7 +577,7 @@ def plot_metrics_models(metrics_df, num=8):
         fig, ax = plt.subplots(figsize=(20, 10))
         ax.bar(metrics_df.columns, list(metrics_df.loc[i, :]), color=c)
         ax.set_xticks(x)
-        ax.set_xticklabels(metrics_df.columns, rotation=65)
+        ax.set_xticklabels(metrics_df.columns)
         ax.set_ylim((0, 1))
         plt.title(i)
         #fig.savefig(i+".png")
@@ -590,8 +590,7 @@ def plot_metrics_summary(metrics_df,
                          threshold_pssm_e_value=None):
     if num == 8:
         metrics_df = metrics_df.iloc[:, 1:]
-    print(len(metrics_df.columns.to_list()))
-    # col= metrics_df.index.to_list()
+        
     x = np.arange(metrics_df.shape[1])
 
     list_bars = [
@@ -613,14 +612,13 @@ def plot_metrics_summary(metrics_df,
                align='center')
 
     ax.set_xticks(x)
-    ax.set_xticklabels(metrics_df.columns.to_list(), rotation=65)
+    ax.set_xticklabels(metrics_df.columns.to_list())
 
-    ax.legend([el.split('.')[0] for el in metrics_df.index.to_list()])
+    ax.legend([convert(el.split('.')[0]) for el in metrics_df.index.to_list()])
 
     plt.savefig(
         path.join(
-            'data', 'part_1', 'metrics',
-            'best_models_{0}_{1}_{2}_{3}.png'.format(
+            'data', 'part_1', 'metrics', 'best_models_{0}_{1}_{2}_{3}.png'.format(
                 remove_dot(threshold_hmms_e_value),
                 remove_dot(threshold_hmms_i_e_value),
                 remove_dot(threshold_pssm_e_value), num)))
@@ -633,3 +631,28 @@ def remove_dot(x):
     x = x.split('.')[1]
 
     return x
+
+
+def convert(l):
+    l = l.split('_')
+    sigla = []
+    if l[0] == "out":
+        sigla.append("P")
+    elif l[0] == "hmmsearch":
+        sigla.append("H")
+    
+    sigla.append(l[2])
+    if l[3] == "1":
+        sigla.append("1")
+    elif l[3] == "3":
+        sigla.append("2")
+    elif l[3] == "4":
+        sigla.append("3")
+    
+    if "denoised1" in l:
+        sigla.append("d")
+    
+    if sigla[0]=="P" and l[-1]=="1iterations":
+        sigla.append("1_it")
+
+    return "".join(sigla)
