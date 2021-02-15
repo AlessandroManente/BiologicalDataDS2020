@@ -1,0 +1,1 @@
+This folder will contain the .csv file that contains the mapping from PDB ids to Uniprot ids, for each model that we choose to examinate.

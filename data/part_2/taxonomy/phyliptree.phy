@@ -1,0 +1,126 @@
+(
+(
+'Thermoplasma acidophilum DSM 1728':4,
+'Methanocaldococcus jannaschii DSM 2661':4
+)Archaea:4,
+(
+(
+(
+(
+'Rattus norvegicus':4,
+'Cricetulus griseus':4
+)Rodentia:4,
+'Bos taurus':4,
+'Homo sapiens':4
+)Mammalia:4,
+'Danio rerio':4
+)Chordata:4,
+'Toxoplasma gondii':4,
+(
+'Cryptococcus neoformans var. neoformans JEC21':4,
+(
+'Pyronema omphalodes CBS 100304':4,
+(
+'Cyberlindnera mrakii':4,
+'Saccharomyces cerevisiae S288C':4
+)Saccharomycetales:4,
+'Neurospora crassa OR74A':4,
+'Pneumocystis carinii':4
+)Ascomycota:4
+)Fungi:4
+)Eukaryota:4,
+(
+'Akkermansia muciniphila ATCC BAA-835':4,
+(
+'Petrotoga mobilis SJ95':4,
+'Thermotoga maritima MSB8':4
+)Thermotogae:4,
+(
+'Bacillus subtilis subsp. subtilis str. 168':4,
+(
+'Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305 = NCTC 7292':4,
+'Staphylococcus haemolyticus JCSC1435':4,
+(
+'Staphylococcus aureus subsp. aureus MRSA252':4,
+'Staphylococcus aureus subsp. aureus MW2':4
+)'Staphylococcus aureus':4
+)Staphylococcus:4
+)Bacillales:4,
+(
+'Chlorobaculum parvum NCIB 8327':4,
+'Chlorobaculum tepidum TLS':4
+)Chlorobaculum:4,
+(
+'Salinispora arenicola CNS-205':4,
+'Cutibacterium acnes KPA171202':4,
+'Mycobacterium tuberculosis H37Rv':4
+)Actinomycetia:4,
+(
+(
+'Geobacter bemidjiensis Bem':4,
+'Geobacter sulfurreducens PCA':4
+)Geobacter:4,
+(
+'Caulobacter sp. K31':4,
+(
+'Sinorhizobium meliloti 1021':4,
+'Brucella melitensis bv. 1 str. 16M':4
+)Rhizobiales:4
+)Alphaproteobacteria:4,
+(
+(
+(
+'Polynucleobacter necessarius STIR1':4,
+'Burkholderia ambifaria AMMD':4,
+(
+'Paraburkholderia phytofirmans PsJN':4,
+'Paraburkholderia xenovorans LB400':4
+)Paraburkholderia:4
+)Burkholderiaceae:4,
+(
+'Bordetella avium 197N':4,
+'Bordetella pertussis Tohama I':4
+)Bordetella:4
+)Burkholderiales:4,
+'Chromobacterium violaceum ATCC 12472':4,
+(
+'Azoarcus olearius':4,
+'Aromatoleum aromaticum EbN1':4
+)Rhodocyclales:4
+)Betaproteobacteria:4,
+(
+'Marinomonas sp. MWYL1':4,
+'Halorhodospira halophila SL1':4,
+'Pectobacterium atrosepticum SCRI1043':4,
+'Colwellia psychrerythraea 34H':4,
+(
+'Actinobacillus pleuropneumoniae serovar 5b str. L20':4,
+'Haemophilus influenzae Rd KW20':4
+)Pasteurellaceae:4,
+(
+'Azotobacter vinelandii DJ':4,
+(
+'Pseudomonas savastanoi pv. phaseolicola 1448A':4,
+'Pseudomonas syringae pv. tomato str. DC3000':4,
+'Pseudomonas protegens Pf-5':4,
+(
+'Pseudomonas aeruginosa LESB58':4,
+'Pseudomonas aeruginosa PA7':4,
+'Pseudomonas aeruginosa PAO1':4
+)'Pseudomonas aeruginosa':4,
+(
+'Pseudomonas fluorescens SBW25':4,
+'Pseudomonas fluorescens Pf0-1':4
+)'Pseudomonas fluorescens':4,
+'Pseudomonas syringae pv. syringae B728a':4,
+(
+'Pseudomonas putida W619':4,
+'Pseudomonas putida KT2440':4
+)'Pseudomonas putida':4,
+'Pseudomonas sp.':4
+)Pseudomonas:4
+)Pseudomonadaceae:4
+)Gammaproteobacteria:4
+)Proteobacteria:4
+)Bacteria:4
+)root;

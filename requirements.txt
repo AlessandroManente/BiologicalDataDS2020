@@ -1,0 +1,8 @@
+ete3
+pandas
+numpy
+scipy
+wordcloud
+Bio
+matplotlib
+seaborn

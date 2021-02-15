@@ -1,0 +1,1 @@
+This folder will contain all the pdb files relative to one model.

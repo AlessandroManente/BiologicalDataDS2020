@@ -1,0 +1,3431 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>../../../data/msa/uniprot_sprot.fasta</BlastOutput_db>
+  <BlastOutput_query-ID>UniRef90_A0A376B3N7</BlastOutput_query-ID>
+  <BlastOutput_query-def>Related to Putative nitronate monooxygenase n=1 Tax=Saccharomycodes ludwigii TaxID=36035 RepID=A0A376B3N7_9ASCO</BlastOutput_query-def>
+  <BlastOutput_query-len>371</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.01</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>UniRef90_A0A376B3N7</Iteration_query-ID>
+  <Iteration_query-def>Related to Putative nitronate monooxygenase n=1 Tax=Saccharomycodes ludwigii TaxID=36035 RepID=A0A376B3N7_9ASCO</Iteration_query-def>
+  <Iteration_query-len>371</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275321</Hit_id>
+  <Hit_def>sp|D0V3Y4|NMO_PSESP Nitronate monooxygenase OS=Pseudomonas sp. OX=306 GN=pnoA PE=1 SV=1</Hit_def>
+  <Hit_accession>275321</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.025</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>2.99289e-156</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>NYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYA----AFKQLRALYPDKINFNLVGSNYKNCLQWI</Hsp_qseq>
+      <Hsp_hseq>MSNSLLSLLNIELPIIQSPMVGVSTPRLAAAVSNAGGLGSIGIGASNV------EQARAMLRETAAL-TDRPFNVNLFCHVPARAD-AAREAQWLAFLAPLFAEFESPAPAA----LREIYTSFV---EDFAMLEML---LEEK--PAVVSFHFGLPPQSSIDALKDAGIVLLACVTNLAEAQQAEHAGVHALVAQGYEAGGHRGVFDPQQ-DSEMGTFALVRVLTDA---CQLP--VIAAGGIMDGAGIKAVMQLGASAAQLGTAFILCPESSANPAYRDALQGPRAHQTRVTSAISGRPARGMVNR--NYIDLETNAPALPDYPIAYDANKALNAAAANKANTDFAVQWAGQGAPLARSMP</Hsp_hseq>
+      <Hsp_midline>     LS + ++ PIIQ+PM GVSTP++AA V+  GG+GS+ +   N        +   +L     +      N+N FCH        A    WL   + +     +   +     + +I  SF+        LE L   L+ K  P  VSFHFG P +S+I   +D GI++L   T+L EA +     V  ++ QGYEAGGHRG FDP   D  + T+ L   +         P  +IAAGGI+     +  +  GASA Q+GTAF+   + + N                +T  +SG+PAR M+      + L      LP Y   Y                       G          </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|751</Hit_id>
+  <Hit_def>sp|P47177|2NDP_YEAST Putative nitronate monooxygenase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YJR149W PE=1 SV=2</Hit_def>
+  <Hit_accession>751</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.402</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>1.43009e-153</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>NYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYAS----NNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVL--DENLPTYILFDQIKKYLNTINEP------KFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDN-----CKYTTVMTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MSRSFQKCLNLRYPIIQAPMAGVTTIEMAAKACIAGAIASLPLSHLDFRKVNDIEKLKLMVSQFRDQVADESLEGNLNLNFFCHDIVDKPTDLQTANWAKLYRKSMNV-PIDMNEIKFDNGNVSFKAFEKENALQDFFQYLSDGFR----PKIISFHFGHPSKSTIEYLQKIGILIFVTATSVREVRLLARLGINGIVCQGYEAGGHRGNFLVNDPKDDENLSTVQLVKRTVDELAEMKNKGLIHATPFVIAAGGIMDSKDISYMLSQQADAVQVGTAFLGCSESNASKNFSSPFTRETTTKMVNIISGKPARTISTPFIEKVIANFQGEELPPYGYMYSAFKQVRKKYPELANFILAGQGFQNVQS--GITTDKKIETMGARLK</Hsp_hseq>
+      <Hsp_midline>  + F   + ++YPIIQAPMAGV+T +MAA   + G I SLP+S ++F +   I KL+ +++  +   A      NLN+NFFCH  V KPT  +  NW +LY K   +   ++   + +  +    +F +  +     + L    +    PK +SFHFG P KSTI+  Q IGIL+ VTATS++E   L  L ++GI+CQGYEAGGHRGNF  +    DENL T  L  +    L  +          F+IAAGGI+ SKD  Y +   A AVQ+GTAFL  S+   + +       + TT M  ++SGKPAR + TPFIE ++ N++ E+LPPY YMY+AFKQ+R  YP+  NF L G  ++N     G ++   IE +G  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275319</Hit_id>
+  <Hit_def>sp|B2TEK6|NMO_PARPJ Nitronate monooxygenase OS=Paraburkholderia phytofirmans (strain DSM 17436 / LMG 22146 / PsJN) OX=398527 GN=Bphyt_4144 PE=1 SV=1</Hit_def>
+  <Hit_accession>275319</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.29</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>4.3099e-145</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYA----AFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>KRALLPLLGIDKPIIQAPMAGVSTPALAAAVCNAGGLGSLGVGAMNA------DGARKVIRETRAL-TDKPFNINVFCHRPAQAD-AAVEQQWLSWLAPHFEKYGATPPAK----LSDIYTSFL---ADPAMLAVF---LEEK--PAIVSFHFGLPSADVIAELKKAGIRLLASATNLQEAAQVEAAGVDAIVAQGIEAGGHRGVFDPDAFDDRLGTFALTRLLAKE---CRLP--VIAAGGIMDGAGIAAALALGAQAAQLGTAFVACTETSIDEGYRRALLGEAARRTTFTAAISGRLARSMANSFTA-LGADPRSPEPATYPIAYDAGKALNAAAKAKGEFGYGAHWAGQAAALARS---LPAAELVAQLERELK</Hsp_hseq>
+      <Hsp_midline> +  L  +G+  PIIQAPMAGVSTP +AA V   GG+GSL V  +N            ++   + +      NIN FCH+       A  + WL   +           +     + DI  SF+   + P  L      L+ K  P  VSFHFG P    I + +  GI +L +AT+LQEA ++ +  VD I+ QG EAGGHRG FDP   D+ L T+ L   + K       P  +IAAGGI+        +  GA A Q+GTAF+  ++ +++    +            T  +SG+ AR+M   F   L  +    +   Y   Y          +A        +  G             + +L+  + + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275320</Hit_id>
+  <Hit_def>sp|Q9HWH9|NMO_PSEAE Nitronate monooxygenase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=nmoA PE=1 SV=1</Hit_def>
+  <Hit_accession>275320</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.135</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>8.79734e-145</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>NYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALY----PDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MTDRFTRLLGIQQPIIQAPMLGVSTPALAAAVSNAGGLGSIAI------TGSAAEKGRALIREVRGL-TDKPFNVNLFCHRPGQAD-PARERAWLDYLKPLFAEFGAEPP----VRLKNIYLSFL---EDPTLLPML---LEER--PAAVSFHFGAPPRDQVRALQAVGIRVLVCATTPEEAALVEAAGADAVVAQGIEAGGHRGVFEPERGDAAIGTLALVRLLAARG---SLP--VVAAGGIMDGRGIRAALELGASAVQMGTAFVLCPESSANAAYREALKGPRAARTALTVTMSGRSARGLPNR-MFFDAAAPGVPPLPDYPFVYDATKALQTAALARGNHDFAAQWAGQGAALARE---LPAAELLRTLVEELR</Hsp_hseq>
+      <Hsp_midline>    F   +G++ PIIQAPM GVSTP +AA V+  GG+GS+ +         A  K   L+   + +      N+N FCH+       A    WL     +               + +I +SF+     P  L  L   L+ +  P  VSFHFGAP +  ++  Q +GI VLV AT+ +EA  + +   D ++ QG EAGGHRG F+P   D  + T  L   +       + P  ++AAGGI+  +  R  ++ GASAVQMGTAF+   + + N    +           +T  +SG+ AR +    +           LP Y ++Y A K L+                G       +     + +L+  + + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|752</Hit_id>
+  <Hit_def>sp|Q12723|2NPD_CYBMR Nitronate monooxygenase OS=Cyberlindnera mrakii OX=1004253 PE=1 SV=1</Hit_def>
+  <Hit_accession>752</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.964</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>4.20346e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>MLLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTV--YASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELES-SPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSV-LDENLPTYILFDQIKKY--LNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALYPDK-----INFNLVGSNYKNCLQWIGKSSGDLIEIVGKNV</Hsp_qseq>
+      <Hsp_hseq>MRSQIQSFLKTFEVRYPIIQAPMAGASTLELAATVTRLGGIGSIPMGSLS----EKCDAIETQLENFDELVGDSGRIVNLNFFAHKEPRSGRADVNEEWLKKYDKIYGKAGIE---FDKKELKLLYPSFRSIVDPQHPTVRLLK-----NLKPKIVSFHFGLPHEAVIESLQASDIKIFVTVTNLQEFQQAYESKLDGVVLQGWEAGGHRGNFKANDVEDGQLKTLDLVSTIVDYIDSASISNPPFIIAAGGIHDDESIKELLQFNIAAVQLGTVWLPSSQATISPEHLKMFQSPKSDTMMTAAISGRNLRTISTPFLRDLHQSSPLASIPDYPLPYDSFKSLANDAKQSGKGPQYSAFLAGSNYHKSWKDTR-STEEIFSILVQDL</Hsp_hseq>
+      <Hsp_midline>M    + FL    V+YPIIQAPMAG ST ++AA V   GGIGS+P+  ++    E    +ET L     +   +   +N+NFF HK+         E WL+ Y KI G             +  +  SF  +       +  L         PK VSFHFG P ++ I+  Q   I + VT T+LQE  +     +DG++ QG+EAGGHRGNF  +   D  L T  L   I  Y    +I+ P F+IAAGGI   +  +  +    +AVQ+GT +L +S  T++ ++ K          MT  +SG+  R + TPF+ +L  +     +P Y   Y +FK L             +  L GSNY    +    S+ ++  I+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275332</Hit_id>
+  <Hit_def>sp|Q8NXG7|NMO_STAAW Probable nitronate monooxygenase OS=Staphylococcus aureus (strain MW2) OX=196620 GN=MW0803 PE=3 SV=1</Hit_def>
+  <Hit_accession>275332</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.664</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>1.78273e-102</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPYRRALHLEEPVVKITE----EQQFKCHIDTT-----------IKKQVPVCCFTFGIPSESIIKRLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN            +      +I         F     +             K       F FG P +S IK+ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275334</Hit_id>
+  <Hit_def>sp|Q49W60|NMO_STAS1 Probable nitronate monooxygenase OS=Staphylococcus saprophyticus subsp. saprophyticus (strain ATCC 15305 / DSM 20229 / NCIMB 8711 / NCTC 7292 / S-41) OX=342451 GN=SSP1854 PE=3 SV=1</Hit_def>
+  <Hit_accession>275334</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.738</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>1.00296e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>383</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD--PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALYPDKINFN----LVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MKLSTRVTGLLNVKYPIIQAGMAGSTTPELVATVSNAGGLGTIGAGYFS------SDRLEQEITYLQEL-TDLPYAVNLFV-PSDKLYIPEKVEHMNAWLKPYRRAFNIEEPVINM----------TEKQQFKDAIDLVI----EKGVPA-VSFTFGIPEQTVIEKLKERHIKLIGTATSVEEAIANESAGMDMVIAQGSEAGGHRGAFSETASQLTPLIGTMSLVPQMVDQ---INIP--VVAAGGIMDGRGLVASMVLGAEGVQMGTAFLTSDESGASQLYKHAISQSKETDTVVTNVITGKPARGIENEFIHKM--NEYDDEIPDYPIQNQLTNALRKEAANKGNAQWTHLWSGQSPRLVQH---MSAWALIENVVKQAN</Hsp_hseq>
+      <Hsp_midline>+         + VKYPIIQA MAG +TP++ A V+  GG+G++     +        +LE  +   Q +       +N F           ++E+            N       +           E +     ++ ++     K  P  VSF FG P ++ I+K ++  I ++ TATS++EAI   S  +D +I QG EAGGHRG F    S L   + T  L  Q+      IN P  ++AAGGI+  +     +  GA  VQMGTAFL + +   +       +        +T +++GKPAR +   FI  +  N   +++P Y         LR    +K N        G + +        S+  LIE V K   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275330</Hit_id>
+  <Hit_def>sp|Q6GB05|NMO_STAAS Probable nitronate monooxygenase OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=SAS0791 PE=3 SV=1</Hit_def>
+  <Hit_accession>275330</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.353</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>1.25996e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSESIIKRLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIVSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +S IK+ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275329</Hit_id>
+  <Hit_def>sp|Q6GIG7|NMO_STAAR Probable nitronate monooxygenase OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=SAR0883 PE=3 SV=1</Hit_def>
+  <Hit_accession>275329</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.968</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>1.54879e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPNESIIKRLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +S IK+ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275328</Hit_id>
+  <Hit_def>sp|Q99VF6|NMO_STAAN Probable nitronate monooxygenase OS=Staphylococcus aureus (strain N315) OX=158879 GN=SA0781 PE=3 SV=1</Hit_def>
+  <Hit_accession>275328</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.582</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>2.19259e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPYRRALHLEEPVVKIIE----EQQFKCHIDTI-----------IKKQVPVCCFTFGIPNESIIERLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN            +      +I         F     +             K       F FG P +S I++ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275325</Hit_id>
+  <Hit_def>sp|A5IR97|NMO_STAA9 Probable nitronate monooxygenase OS=Staphylococcus aureus (strain JH9) OX=359786 GN=SaurJH9_0919 PE=3 SV=1</Hit_def>
+  <Hit_accession>275325</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.582</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>2.19259e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPYRRALHLEEPVVKIIE----EQQFKCHIDTI-----------IKKQVPVCCFTFGIPNESIIERLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN            +      +I         F     +             K       F FG P +S I++ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275322</Hit_id>
+  <Hit_def>sp|A6U025|NMO_STAA2 Probable nitronate monooxygenase OS=Staphylococcus aureus (strain JH1) OX=359787 GN=SaurJH1_0937 PE=3 SV=1</Hit_def>
+  <Hit_accession>275322</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.582</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>2.19259e-101</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPYRRALHLEEPVVKIIE----EQQFKCHIDTI-----------IKKQVPVCCFTFGIPNESIIERLKEANIKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVVTKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELTHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN            +      +I         F     +             K       F FG P +S I++ ++  I ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275331</Hit_id>
+  <Hit_def>sp|A8Z1H7|NMO_STAAT Probable nitronate monooxygenase OS=Staphylococcus aureus (strain USA300 / TCH1516) OX=451516 GN=USA300HOU_0879 PE=3 SV=1</Hit_def>
+  <Hit_accession>275331</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.271</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>2.09947e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSEQIISRLKAANVKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVITKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELIHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +  I + +   + ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275327</Hit_id>
+  <Hit_def>sp|A6QFD2|NMO_STAAE Probable nitronate monooxygenase OS=Staphylococcus aureus (strain Newman) OX=426430 GN=NWMN_0792 PE=3 SV=1</Hit_def>
+  <Hit_accession>275327</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.271</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>2.09947e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSEQIISRLKAANVKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVITKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELIHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +  I + +   + ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275326</Hit_id>
+  <Hit_def>sp|Q5HHG4|NMO_STAAC Probable nitronate monooxygenase OS=Staphylococcus aureus (strain COL) OX=93062 GN=SACOL0922 PE=3 SV=1</Hit_def>
+  <Hit_accession>275326</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.271</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>2.09947e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSEQIISRLKAANVKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVITKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELIHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +  I + +   + ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275324</Hit_id>
+  <Hit_def>sp|Q2FZX9|NMO_STAA8 Probable nitronate monooxygenase OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=SAOUHSC_00855 PE=3 SV=1</Hit_def>
+  <Hit_accession>275324</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.271</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>2.09947e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSEQIISRLKAANVKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVITKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELIHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +  I + +   + ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275323</Hit_id>
+  <Hit_def>sp|Q2FIF3|NMO_STAA3 Probable nitronate monooxygenase OS=Staphylococcus aureus (strain USA300) OX=367830 GN=SAUSA300_0825 PE=3 SV=1</Hit_def>
+  <Hit_accession>275323</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.271</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>2.09947e-100</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFD-PSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSY----MYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWNKNRLTQMLSIEYPIIQAGMAGSTTPKLVASVSNSGGLGTIGAGYFN------TQQLEDEIDYVRQL-TSNSFGVNVFV-PSQQSYTSSQIENMNAWLKPY----------RRALHLEEPVVKITEEQQFKCHIDTII-----KKQVPVCCFTFGIPSEQIISRLKAANVKLIGTATSVDEAIANEKAGMDAIVAQGSEAGGHRGSFLKPKNQLPMVGTISLVPQIVD---VVSIP--VIAAGGIMDGRGVLASIVLGAEGVQMGTAFLTSQDSNASELLRDAIINSKETDTVITKAFSGKLARGINNRFIEEMSQYEG--DIPDYPIQNELTSSIRKAAANIGDKELIHMWSGQSPRLATTH---PANTIMSNIINQIN</Hsp_hseq>
+      <Hsp_midline>+ N       + ++YPIIQA MAG +TPK+ A+V+  GG+G++     N        +LE  ++  + +  SN+  +N F        T+++IEN                   +   +++  V   E +     ++ ++     K       F FG P +  I + +   + ++ TATS+ EAI      +D I+ QG EAGGHRG+F  P      + T  L  QI      ++ P  +IAAGGI+  +     I  GA  VQMGTAFL + D   +                +T   SGK AR +   FIE +        +P Y        +  K    +   ++     G + +         +  ++  +   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275333</Hit_id>
+  <Hit_def>sp|Q4L4T4|NMO_STAHJ Probable nitronate monooxygenase OS=Staphylococcus haemolyticus (strain JCSC1435) OX=279808 GN=SH2032 PE=3 SV=1</Hit_def>
+  <Hit_accession>275333</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.723</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>8.86981e-98</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>LLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFC--HKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDP--SVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV-------MTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYS----YMYAAFKQLRALYPDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>MWYNNQLTQSLNIQYPIIQAGMAGSTTAELVATVSNKGGLGCIGAGYFT------TKKLEQEIQKVQGL-TSQPFGVNLFVPSHQSYTNEQVEHMNAWLKPYRKAL----------------NLEEPVVNISEEQQFKSAIQTVIKYRV--PVCCFTFGIPSKEIIEQLKGAKITLIGTATTVDEAIANEHAGMDIVVAQGSEAGGHRGSFLTTNNQREPLIGTMSLIPQIVDH---VSIP--VVAAGGVMDGRGILASQILGAQGVQMGTAFLTTEESGANQLVKQAVLHSKETDTIVTDVFSGKSARGINNEFVE--TMKQYEGNIPPYPVQNQLTNSIRKTAASTGHREWTHMWSGQSPRLATSQH---VNQLMDRLVEQVK</Hsp_hseq>
+      <Hsp_midline>+         + ++YPIIQA MAG +T ++ A V+  GG+G +              KLE  +   Q +  S    +N F   H+  +      +  WL+ Y K                  ++    + +    Q    + T +K +       F FG P K  I++ +   I ++ TAT++ EAI      +D ++ QG EAGGHRG+F    +  +  + T  L  QI  +   ++ P  ++AAGG++  +        GA  VQMGTAFL T +   N    +           +T + SGK AR +   F+E   +      +PPY        +  K   +    +      G + +            L++ + + V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|275318</Hit_id>
+  <Hit_def>sp|O05413|NMO_BACSU Probable nitronate monooxygenase OS=Bacillus subtilis (strain 168) OX=224308 GN=yrpB PE=3 SV=1</Hit_def>
+  <Hit_accession>275318</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.026</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>7.74255e-97</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAG-VSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYT-------TVMTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALY----PDKINFNLVGSNYKNCLQWIGKSSGDLIEIVGKN</Hsp_qseq>
+      <Hsp_hseq>MNEFMKKFSLTKPIIQAPMAGGITKPRLASAVSNQGALGSLASGYLTP------DLLEQQIKEIFEL-TDAPFQINVFVPLGLEMPPKDQIKKWKE----------NIPLANQVNQ----FTSVQEEWDD--FYQKIDLILKYKV--KACSFTFDLPPEDAVKELKTAGCCLIGTASTVEEALLMEERGMDIVVLQGSEAGGHRGAFLPSKGESAVGLMALIPQAADA---LSVP--VIAAGGMIDHRGVKAALTLGAQGVQIGSAFLICHESNAHPVHKQKILEANEADTKLTTLFSGKEARGIVNKWMEE-NEQFETQTLP-YPYQNTLTKAMRQKASLQNNHDQMSLWAGQGIRSLTEE--ISVKQLLNQLCQE</Hsp_hseq>
+      <Hsp_midline>   F+ K  +  PIIQAPMAG ++ P++A+ V+  G +GSL    +          LE  +     +       IN F    +  P   +I+ W +          N  L+ Q+N       S  E        +K+   LK K   K  SF F  P +  +K+ +  G  ++ TA++++EA+ +    +D ++ QG EAGGHRG F PS  +  +    L  Q       ++ P  +IAAGG+I  +  +  +  GA  VQ+G+AFL   +   +  + +         T +T L SGK AR ++  ++E     +E + LP Y Y     K +R                G   ++  +    S   L+  + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|527545</Hit_id>
+  <Hit_def>sp|O06179|Y1533_MYCTU Putative monooxygenase Rv1533 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=Rv1533 PE=1 SV=1</Hit_def>
+  <Hit_accession>527545</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.582</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>1.87476e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>112</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>NYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNNLNINFFCHKKVSKPTTAEIENWLQLYSKIP--GIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKF------------------------VSF-H--------FGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMT-------PLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYMYAAFKQLRALYPDKINFNL-----VGSNYKNCLQWIGKSSGDLIEIV</Hsp_qseq>
+      <Hsp_hseq>MRTRVAELLGAEFPIC----AFSHCRDVVAAVSNAGGFGILGAVAHSPKR------LESELTWIEEHTGGKPYGVDV-------------------LLPPKYIGAEQGGIDAQQARELIPEGHRTFVD--------DLLVRY----GIPAVTDRQRSSSAGGLHISPKGYQPLLDVAFAHDIRLIASALGPPPPDLVERAHNHDVLVAALAGTAQHARRHAAAGVDLIVAQGTEAGGHTG---------EVATMVLVPEVVDAVS----PTPVLAAGGIARGRQIAAALALGAEGVWCGSVWLTTEEAETPPVVKDKFLAATSSDTVRSRSLTGKPARMLRTAWTDEW----DRPDSPD-PL----GMPLQSALVSD--PQLRINQAAGQPGAKARELATYFVGQVVGSL</Hsp_hseq>
+      <Hsp_midline>        +G ++PI     A      + A V+  GG G L     +  +      LE+ L   +         ++                    L                     + + + +F++        + L+ +      P                          V+F H         G P    +++  +  +LV   A + Q A    +  VD I+ QG EAGGH G          + T +L  ++   ++    P  ++AAGGI   +     +  GA  V  G+ +L T +              T         ++GKPAR + T + +      +    P           L++         L      G       +      G ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|277929</Hit_id>
+  <Hit_def>sp|Q9I4V0|NQRED_PSEAE NADH:quinone reductase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=PA1024 PE=1 SV=1</Hit_def>
+  <Hit_accession>277929</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3298</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>8.69992e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MLLNYKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLETLLNTCQTVYASNN--LNINFFCHKKVSKPTTAEIENWLQLYSKIPGIGNNNLLSTQINFMDDINVSFMELESSPQKLEKLMTFLKNKYTPKFVSFHFGAPGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>MGVFRTRFTETFGVEHPIMQGGMQWVGRAEMAAAVANAGGL-----ATLSALTQPSPEALAAEIARCREL-TDRPFGVNLTLL---PTQKPVPYAE------YRAAIIEAGIRVVETAGNDPGE---------------------------------H--------IAEFRRHGVKVIHKCTAVRHALKAERLGVDAVSIDGFECAGHPG-------EDDIPGLVLLP---AAANRLRVP--IIASGGFADGRGLVAALALGADAINMGTRFLATRECPIHPAVKAAIR</Hsp_hseq>
+      <Hsp_midline>M +    F    GV++PI+Q  M  V   +MAA VA  GG+     + ++   + +   L   +  C+ +       +N+         KP           Y          ++ T  N   +                                 H        I +F+  G+ V+   T+++ A++   L VD +   G+E  GH G       ++++P  +L        N +  P  +IA+GG    +     +  GA A+ MGT FL T +C ++        </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|753</Hit_id>
+  <Hit_def>sp|Q01284|2NPD_NEUCR Nitronate monooxygenase OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987) OX=367110 GN=ncd-2 PE=1 SV=1</Hit_def>
+  <Hit_accession>753</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1514</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>4.69898e-13</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>KSTIKKFQDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQI--------KKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPLVSGKPARAMLTPFIENLLLNYEHEKLPPYSYM-----YA---AF-------KQLRALYPDK---INFNLVGSNYKNCLQWIGKSSGDLIEIVGKNVI</Hsp_qseq>
+      <Hsp_hseq>KQIIEALHASGFVVFFQVGTVKDARKAAADGADVIVAQGIDAGGH-------QLATGSGIVSLVPEVRDMLDREFKEREVVVVAAGGV------ADGRGVVGALGLGAEGVVLGTRFTVAVEASTPEFRRKVILETNDG--GLN--TVKSHFHDQINCNTIWHNVYD-GRAVRNASYDDHAAGVPFEENHKKFKEAASSGDNSRAVTWSGTAVGLIKDQR--PAGDIVRELREEAK</Hsp_hseq>
+      <Hsp_midline>K  I+     G +V     ++++A +  +   D I+ QG +AGGH        L        L  ++        K+    +     +         +     +  GA  V +GT F    + +      K          G     + + F + +  N     +           Y    A        K+ +               G+            +GD++  + +   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|167337</Hit_id>
+  <Hit_def>sp|Q7NTY1|GUAC_CHRVO GMP reductase OS=Chromobacterium violaceum (strain ATCC 12472 / DSM 30191 / JCM 1249 / NBRC 12614 / NCIMB 9131 / NCTC 9757) OX=243365 GN=guaC PE=3 SV=1</Hit_def>
+  <Hit_accession>167337</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9655</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.24672e-06</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>VTATSLQEAIELISLNVDGIICQGYEAGG-----------HRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCT------VNYDNCKYTTV</Hsp_qseq>
+      <Hsp_hseq>ATA---EAARDLEAWGCDAIKA-GI-AGGRVCITKNKTGFHR---------------PMVSTVRDCVAAVTIP--VIADGGIVEHGDIAKALVCGATMVMAGSLFAGYDESAGDIVEIAGKHYKEYFGS</Hsp_hseq>
+      <Hsp_midline> TA   + A +L +   D I   G  AGG           HR                +   ++  +  +  P  +IA GGI+   D    +  GA+ V  G+ F    +              +Y   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338547</Hit_id>
+  <Hit_def>sp|Q3KFC7|PYRD_PSEPF Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas fluorescens (strain Pf0-1) OX=205922 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338547</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.1951</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>5.80062e-06</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AQALIETGMDAVIATNTTLSRVGVEGMEHGDEAGG-----LSGAPVREKSTH--TVKVLASELGGKLP--IIAAGGITEGKHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  LI   +D +I                G EAGG               T+    ++         P  +IAAGGI   K A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338544</Hit_id>
+  <Hit_def>sp|Q4KFI7|PYRD_PSEF5 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas fluorescens (strain ATCC BAA-477 / NRRL B-23932 / Pf-5) OX=220664 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338544</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8099</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>8.2279e-06</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>SLQEAIELISLNVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>TVEVARALLETGMDAVIATNTTLSREGVEGLEHGAEAGG-----LSGAPVREKSTH--TVKVLAAELAGRLP--IIAVGGITEGKHAAEKIAAGASLVQLYSGFI</Hsp_hseq>
+      <Hsp_midline>+++ A  L+   +D +I                G EAGG               T+    ++         P  +IA GGI   K A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|158193</Hit_id>
+  <Hit_def>sp|O87392|GLXD_RHIME Glutamate synthase large subunit-like protein OS=Rhizobium meliloti (strain 1021) OX=266834 GN=glxD PE=3 SV=2</Hit_def>
+  <Hit_accession>158193</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.1951</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>8.28409e-06</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFL--IAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>LAVKAGADVVVLDGMQ-GGTAATQDVFIENVGMPTLACIRPAVQALQDLGMHRKVQLVVSGGIRSGADVAKALALGADAVAIGTA</Hsp_hseq>
+      <Hsp_midline>  +    D ++  G + GG     D  + +  +PT        + L  +   + +  + +GGI S  D    +  GA AV +GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338553</Hit_id>
+  <Hit_def>sp|Q4ZUM3|PYRD_PSEU2 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas syringae pv. syringae (strain B728a) OX=205918 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338553</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.4247</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.13997e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC-------QGYE-------AGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPLVSGKPAR</Hsp_qseq>
+      <Hsp_hseq>AAALIESGMDAVIATNTTLSRQGVEGLPHADQAGG-----LSGAPVREKSTHI-VKVLAGELAG-RLP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFIY----KGPALIRESVDAIAAMP--RAAR</Hsp_hseq>
+      <Hsp_midline>A  LI   +D +I        QG E       AGG               T+I    +   L     P  +IAAGGI   + A   I  GAS VQ+ + F++           +    +  +   + AR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338536</Hit_id>
+  <Hit_def>sp|Q48JY0|PYRD_PSE14 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas savastanoi pv. phaseolicola (strain 1448A / Race 6) OX=264730 GN=pyrD PE=3 SV=2</Hit_def>
+  <Hit_accession>338536</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.4247</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.19214e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC-------QGYE-------AGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>ASALIESGMDAVIATNTTLSRQGVEGLPHGDEAGG-----LSGAPVREKSTHI-VKVLAGELAG-RLP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  LI   +D +I        QG E       AGG               T+I    +   L     P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338263</Hit_id>
+  <Hit_def>sp|Q58070|PYRDB_METJA Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338263</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6543</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.83824e-05</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>QDIGILVLV----TATSLQE-AIELISLNVDGIICQGYEAGGH----RGNFDPSVLD------------ENLPTYIL----FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMG</Hsp_qseq>
+      <Hsp_hseq>KAVKIPVFAKLTPNVTDIIEIAQAVVDAGVDGLVA--------INTVRGM----AIDIRAKKPILANKFGGLSGKAIKSIGIKVVWDLYENFDVP--IIGVGGIMSGEDAIEYMMAGASAVQIG</Hsp_hseq>
+      <Hsp_midline>+ + I V        T + E A  ++   VDG++             RG      +D              L    +       +       + P  +I  GGI+S +DA  Y+  GASAVQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|267132</Hit_id>
+  <Hit_def>sp|Q6A6A0|NANE_CUTAK Putative N-acetylmannosamine-6-phosphate 2-epimerase OS=Cutibacterium acnes (strain DSM 16379 / KPA171202) OX=267747 GN=nanE PE=3 SV=1</Hit_def>
+  <Hit_accession>267132</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.4987</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.45863e-05</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>GAPGKSTIKKFQ-DIGILVLVTATSLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPT----YILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>GLSLAETIERLKREYDVVVMADCGSVDDGLFAAEAGADLI-----------GTTLCGYTGERPKTDGPDYEVIEALVKKLDGDR---PVIAEGRIHTPDQARRAMDLGAHAVVVGTA-ITHPTS-ITGWFRDALR</Hsp_hseq>
+      <Hsp_midline>G     TI++ + +  ++V+    S+ + +       D I           G        E   T    Y + + + K L+       +IA G I +   AR  +D GA AV +GTA +      +         </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338381</Hit_id>
+  <Hit_def>sp|Q480K7|PYRD_COLP3 Dihydroorotate dehydrogenase (quinone) OS=Colwellia psychrerythraea (strain 34H / ATCC BAA-681) OX=167879 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338381</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2691</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.5187e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC-------------Q-GYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AKSLIDNGIDGVIATNTTLSREGVEGLQFGTEQGG-----LSGQPVKEKST--LVIKLLSEALNNKLP--IIGVGGIASSDDANEKLEAGASLVQVYTGFI</Hsp_hseq>
+      <Hsp_midline>A  LI   +DG+I              Q G E GG           +   T  L  ++         P  +I  GGI SS DA   ++ GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338272</Hit_id>
+  <Hit_def>sp|A9BJH4|PYRDB_PETMO Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Petrotoga mobilis (strain DSM 10674 / SJ95) OX=403833 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338272</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.8839</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.83782e-05</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL---FTSD</Hsp_qseq>
+      <Hsp_hseq>LRMVYEVSKAVDVP--IIGIGGIMDYRDAIEYIMAGAWAVQVGTANFINPNACAE</Hsp_hseq>
+      <Hsp_midline>   + +    ++ P  +I  GGI+  +DA  YI  GA AVQ+GTA F+     ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338551</Hit_id>
+  <Hit_def>sp|Q883P1|PYRD_PSESM Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas syringae pv. tomato (strain ATCC BAA-871 / DC3000) OX=223283 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338551</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.8839</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.04873e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC-------QGYE-------AGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AAALIESGMDAVIATNTTLSRQGVEGLPHGDEAGG-----LSGAPVREKSTHI-VKVLAGELAG-RMP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  LI   +D +I        QG E       AGG               T+I    +   L     P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338545</Hit_id>
+  <Hit_def>sp|C3K017|PYRD_PSEFS Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas fluorescens (strain SBW25) OX=216595 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338545</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.8839</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.37409e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AQALVDSGMDAVIATNTTLSRVGVEGLAHGDEAGG-----LSGAPVRDKSTH--IVKVLAAELAGRLP--IIAVGGITEGKHAAEKIAAGASLVQLYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I                G EAGG            +  T+    ++         P  +IA GGI   K A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196128</Hit_id>
+  <Hit_def>sp|Q8KCW4|IMDH_CHLTE Inosine-5&apos;-monophosphate dehydrogenase OS=Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) OX=194439 GN=guaB PE=3 SV=1</Hit_def>
+  <Hit_accession>196128</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1135</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.11602e-05</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>ILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDC</Hsp_qseq>
+      <Hsp_hseq>QLTAIMKCAEEAKKTDIPLIADGGIKYSGDIAKALAAGADSVMMGSVFAGTDES</Hsp_hseq>
+      <Hsp_midline> L   +K           LIA GGI  S D    +  GA +V MG+ F  T + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338330</Hit_id>
+  <Hit_def>sp|C1DDY1|PYRD_AZOVD Dihydroorotate dehydrogenase (quinone) OS=Azotobacter vinelandii (strain DJ / ATCC BAA-1303) OX=322710 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338330</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7283</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.99722e-05</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC-------QGYE-------AGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPLVSGKP</Hsp_qseq>
+      <Hsp_hseq>ARALLDTGMDAVIATNTTLGREGVEGLAHAGEAGG-----LSGAPVREKSTHA-VRVLAGELGG-RLP--IVAVGGITEGRHAAEKIAAGASLVQIYTGFVY----KGPALIREAVEAIAALRGERP</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I        +G E       AGG               T+     +   L     P  ++A GGI   + A   I  GAS VQ+ T F++           +    +  L   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222481</Hit_id>
+  <Hit_def>sp|Q4QJK8|LLDD_HAEI8 L-lactate dehydrogenase OS=Haemophilus influenzae (strain 86-028NP) OX=281310 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222481</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3431</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000123679</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGVLSSARALPPIADA---VKGDIKIIADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     +IA  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222484</Hit_id>
+  <Hit_def>sp|P46454|LLDD_HAEIN L-lactate dehydrogenase OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222484</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3431</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000124782</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGVLSSARALPPIADA---VKGDIKIIADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     +IA  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222483</Hit_id>
+  <Hit_def>sp|A5UFG9|LLDD_HAEIG L-lactate dehydrogenase OS=Haemophilus influenzae (strain PittGG) OX=374931 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222483</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3431</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000136359</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGVLSSARALPPIADA---VKGDIKIIADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     +IA  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222482</Hit_id>
+  <Hit_def>sp|A5UBE3|LLDD_HAEIE L-lactate dehydrogenase OS=Haemophilus influenzae (strain PittEE) OX=374930 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222482</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3431</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000137575</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGVLSSARALPPIADA---VKGDIKIIADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     +IA  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338246</Hit_id>
+  <Hit_def>sp|C6E6N2|PYRDB_GEOSM Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Geobacter sp. (strain M21) OX=443144 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338246</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.5727</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000193163</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVGKAVKLP--LIGIGGIMNGRDALEFMLAGATAVQVGTASFL</Hsp_hseq>
+      <Hsp_midline>   + +    +  P  LI  GGI++ +DA  ++  GA+AVQ+GTA FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338240</Hit_id>
+  <Hit_def>sp|B5EFU4|PYRDB_GEOBB Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Geobacter bemidjiensis (strain Bem / ATCC BAA-1014 / DSM 16622) OX=404380 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338240</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.5727</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000196661</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAKAVKLP--LIGIGGIMNGRDALEFMLAGATAVQVGTASFL</Hsp_hseq>
+      <Hsp_midline>   + +    +  P  LI  GGI++ +DA  ++  GA+AVQ+GTA FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338543</Hit_id>
+  <Hit_def>sp|Q1ICL4|PYRD_PSEE4 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas entomophila (strain L48) OX=384676 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338543</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.5727</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000198787</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQ--------------GYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AAALMESGMDAVIATNTTLGREGVEGLPFGGEAGG-----LSGAPVLEKSTH--TVKVLAGELGGKLP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I                G EAGG               T+    ++         P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12162</Hit_id>
+  <Hit_def>sp|B1L993|AGLUS_THESQ Archaeal-type glutamate synthase [NADPH] OS=Thermotoga sp. (strain RQ2) OX=126740 GN=gltB PE=3 SV=1</Hit_def>
+  <Hit_accession>12162</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9579</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000203628</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQGYEAGG----------HRGN---FDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>AAGAVRAGADYIVIDGIR-GGTGAAPKITRDHVGIPIEFAVAVVDQRL-----------REEGIRHMASIVVAGGIRNSADVIKAIALGADAVYIGTA</Hsp_hseq>
+      <Hsp_midline>A   +    D I+  G   GG          H G    F  +V+D+ L               I     ++ AGGI +S D    I  GA AV +GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12160</Hit_id>
+  <Hit_def>sp|Q9WYM8|AGLUS_THEMA Archaeal-type glutamate synthase [NADPH] OS=Thermotoga maritima (strain ATCC 43589 / MSB8 / DSM 3109 / JCM 10099) OX=243274 GN=gltB PE=3 SV=1</Hit_def>
+  <Hit_accession>12160</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9579</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000203628</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQGYEAGG----------HRGN---FDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>AAGAVRAGADYIVIDGIR-GGTGAAPKITRDHVGIPIEFAVAVVDQRL-----------REEGIRHMASIVVAGGIRNSADVIKAIALGADAVYIGTA</Hsp_hseq>
+      <Hsp_midline>A   +    D I+  G   GG          H G    F  +V+D+ L               I     ++ AGGI +S D    I  GA AV +GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222489</Hit_id>
+  <Hit_def>sp|Q6DAY3|LLDD_PECAS L-lactate dehydrogenase OS=Pectobacterium atrosepticum (strain SCRI 1043 / ATCC BAA-672) OX=218491 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222489</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.5727</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000214499</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKEAVRFGADGIVV-----SNHGG----RQLDGVLSTAHALPAIADA---VKGDITILADSGIRSGLDVVRMIALGADGVMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A E +    DGI+        H G      LD  L T      I      +     ++A  GI S  D    I  GA  V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222444</Hit_id>
+  <Hit_def>sp|B0BTC7|LLDD_ACTPJ L-lactate dehydrogenase OS=Actinobacillus pleuropneumoniae serotype 3 (strain JL03) OX=434271 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222444</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.1875</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000277202</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGALSSARALPSIADA---VKGDIKILADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     ++A  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222443</Hit_id>
+  <Hit_def>sp|B3GZA5|LLDD_ACTP7 L-lactate dehydrogenase OS=Actinobacillus pleuropneumoniae serotype 7 (strain AP76) OX=537457 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222443</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.1875</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000302893</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGALSSARALPSIADA---VKGDIKILADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     ++A  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222442</Hit_id>
+  <Hit_def>sp|A3N3E5|LLDD_ACTP2 L-lactate dehydrogenase OS=Actinobacillus pleuropneumoniae serotype 5b (strain L20) OX=416269 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222442</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.1875</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000302893</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVRFGADGIVV-----SNHGG----RQLDGALSSARALPSIADA---VKGDIKILADSGIRNGLDIVRMLALGADATMLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L +      I      +     ++A  GI +  D    +  GA A  +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196127</Hit_id>
+  <Hit_def>sp|O50316|IMDH_CHLP8 Inosine-5&apos;-monophosphate dehydrogenase OS=Chlorobaculum parvum (strain NCIB 8327) OX=517417 GN=guaB PE=3 SV=3</Hit_def>
+  <Hit_accession>196127</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.1875</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000320513</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>KKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDC</Hsp_qseq>
+      <Hsp_hseq>AKEAAKTDTP--IIADGGIKYSGDISKALAAGADTVMMGSIFAGTDES</Hsp_hseq>
+      <Hsp_midline> K     + P  +IA GGI  S D    +  GA  V MG+ F  T + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338446</Hit_id>
+  <Hit_def>sp|A1WTJ3|PYRD_HALHL Dihydroorotate dehydrogenase (quinone) OS=Halorhodospira halophila (strain DSM 244 / SL1) OX=349124 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338446</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8023</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.0003262</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>LISLNVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGT</Hsp_qseq>
+      <Hsp_hseq>LLERRVDGIVATNTTLGRTGVEQTPQARESGG-----LSGAPLREQAEWVLEQVAARRDRRTAL----IAAGGIMSGEDVTRRLDLGADLVQLYT</Hsp_hseq>
+      <Hsp_midline>L+   VDGI+               Q  E+GG                ++L     +           IAAGGI+S +D    +D GA  VQ+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338325</Hit_id>
+  <Hit_def>sp|Q5P1A9|PYRD_AROAE Dihydroorotate dehydrogenase (quinone) OS=Aromatoleum aromaticum (strain EbN1) OX=76114 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338325</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8023</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000347822</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VTATSLQEAIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQM</Hsp_qseq>
+      <Hsp_hseq>AQVTNIADA--LRRHRIDGVIATNTTIARDKVQGVRYAEQQGG-----LSGAPVFEAST-AVVAQLSRALAG-ELP--IIAAGGILDGRGARAKLAAGASLVQV</Hsp_hseq>
+      <Hsp_midline>   T++ +A  L    +DG+I           QG     + GG               T  +  Q+ + L     P  +IAAGGI+  + AR  +  GAS VQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338548</Hit_id>
+  <Hit_def>sp|B0KG90|PYRD_PSEPG Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas putida (strain GB-1) OX=76869 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338548</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8023</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000388804</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AAALMASGMDAVIATNTTLGREGVEALPHGGEAGG-----LSGAPVLAKSTHI-VKVLAGELGG-KLP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L++  +D +I                G EAGG               T+I    +   L     P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338549</Hit_id>
+  <Hit_def>sp|Q88L40|PYRD_PSEPK Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) OX=160488 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338549</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4171</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000401878</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQ--------------GYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AAALMESGMDAVIATNTTLGREGVEALPYGGEAGG-----LSGAPVLEKSTHI-VKVLAGELGG-KLP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I                G EAGG               T+I    +   L     P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|303232</Hit_id>
+  <Hit_def>sp|A4X5V3|PDXS_SALTO Pyridoxal 5&apos;-phosphate synthase subunit PdxS OS=Salinispora tropica (strain ATCC BAA-916 / DSM 44818 / CNB-440) OX=369723 GN=pdxS PE=3 SV=1</Hit_def>
+  <Hit_accession>303232</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4171</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000434485</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>LVT-ATSLQEAIELISLNVDGIICQGYEAG-G-------H-RGNFDPSVLDENLPTYILF----------DQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGT-AFLFTSDCTVNYDNCKY</Hsp_qseq>
+      <Hsp_hseq>FVCGATNLGEALRRITEGAAMIRSKG-EAGTGDVSNATTHMRGIRTEIRRLQSLPTDELYLAAKDLQAPYELVKEIAETGKLPVVLFTAGGIATPADAAMMMQLGAEGVFVGSGIF-----KSDNPAHRAA</Hsp_hseq>
+      <Hsp_midline> V  AT+L EA+  I+     I  +G EAG G       H RG        ++LPT  L+          + +K+   T   P  L  AGGI +  DA   +  GA  V +G+  F      + N  +   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338244</Hit_id>
+  <Hit_def>sp|Q39UK4|PYRDB_GEOMG Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Geobacter metallireducens (strain ATCC 53774 / DSM 7210 / GS-15) OX=269799 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338244</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000499747</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAKAVKIP--VIGIGGIMSGTDALEFMLAGATAVQVGTANFL</Hsp_hseq>
+      <Hsp_midline>   + +    +  P  +I  GGI+S  DA  ++  GA+AVQ+GTA FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338340</Hit_id>
+  <Hit_def>sp|Q7VTR9|PYRD_BORPE Dihydroorotate dehydrogenase (quinone) OS=Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251) OX=257313 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338340</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4171</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000527042</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AEILPRHGIDGVIATNTTLARDAVQGLPHAEEAGG-----VSGAPVHELS----LRVIERLRSRLGDAVAIIGVGGILSGRQASEKMAAGAQAVQLYTGLI</Hsp_hseq>
+      <Hsp_midline>A  L    +DG+I           QG     EAGG             L        I++  + + +   +I  GGI+S + A   +  GA AVQ+ T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338538</Hit_id>
+  <Hit_def>sp|A6V325|PYRD_PSEA7 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas aeruginosa (strain PA7) OX=381754 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338538</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000551557</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPL</Hsp_qseq>
+      <Hsp_hseq>GMDAVIATNTTLGREGVEGLPHGDEAGG-----LSGAPVREKSTH--TVKVLAGELGGRLP--IIAAGGITEGAHAAEKIAAGASLVQIYSGFIY----KGPALIREAVDAIAAL</Hsp_hseq>
+      <Hsp_midline> +D +I                G EAGG               T+    ++         P  +IAAGGI     A   I  GAS VQ+ + F++           +    +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338338</Hit_id>
+  <Hit_def>sp|Q7W4W6|PYRD_BORPA Dihydroorotate dehydrogenase (quinone) OS=Bordetella parapertussis (strain 12822 / ATCC BAA-587 / NCTC 13253) OX=257311 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338338</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000555918</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AEILPRHGIDGVIATNTTLARDAVQGLPHAEEAGG-----VSGAPVHELS----LRVIERLRSRLGDAVAIIGVGGILSGRQASEKMAAGAQAVQLYTGLI</Hsp_hseq>
+      <Hsp_midline>A  L    +DG+I           QG     EAGG             L        I++  + + +   +I  GGI+S + A   +  GA AVQ+ T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338337</Hit_id>
+  <Hit_def>sp|Q7WGE4|PYRD_BORBR Dihydroorotate dehydrogenase (quinone) OS=Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50) OX=257310 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338337</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000565891</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AEILPRHGIDGVIATNTTLARDAVQGLPHAEEAGG-----VSGAPVHELS----LRVIERLRSRLGDAVAIIGVGGILSGRQASEKMAAGAQAVQLYTGLI</Hsp_hseq>
+      <Hsp_midline>A  L    +DG+I           QG     EAGG             L        I++  + + +   +I  GGI+S + A   +  GA AVQ+ T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338541</Hit_id>
+  <Hit_def>sp|Q9HZF8|PYRD_PSEAE Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338541</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000571543</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPL</Hsp_qseq>
+      <Hsp_hseq>GMDAVIATNTTLGREGVEGLPHGDEAGG-----LSGAPVREKSTH--TVKVLAGELGGRLP--IIAAGGITEGAHAAEKIAAGASLVQIYSGFIY----KGPALIREAVDAIAAL</Hsp_hseq>
+      <Hsp_midline> +D +I                G EAGG               T+    ++         P  +IAAGGI     A   I  GAS VQ+ + F++           +    +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338539</Hit_id>
+  <Hit_def>sp|B7UWL8|PYRD_PSEA8 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas aeruginosa (strain LESB58) OX=557722 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338539</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000571543</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPL</Hsp_qseq>
+      <Hsp_hseq>GMDAVIATNTTLGREGVEGLPHGDEAGG-----LSGAPVREKSTH--TVKVLAGELGGRLP--IIAAGGITEGAHAAEKIAAGASLVQIYSGFIY----KGPALIREAVDAIAAL</Hsp_hseq>
+      <Hsp_midline> +D +I                G EAGG               T+    ++         P  +IAAGGI     A   I  GAS VQ+ + F++           +    +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338540</Hit_id>
+  <Hit_def>sp|Q02PL5|PYRD_PSEAB Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338540</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0319</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000581806</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>NVDGIIC--------------QGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPL</Hsp_qseq>
+      <Hsp_hseq>GMDAVIATNTTLGREGVEGLPHGDEAGG-----LSGAPVREKSTH--TVKVLAGELGGRLP--IIAAGGITEGAHAAEKIAAGASLVQIYSGFIY----KGPALIREAVDAIAAL</Hsp_hseq>
+      <Hsp_midline> +D +I                G EAGG               T+    ++         P  +IAAGGI     A   I  GAS VQ+ + F++           +    +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338531</Hit_id>
+  <Hit_def>sp|B1XV77|PYRD_POLNS Dihydroorotate dehydrogenase (quinone) OS=Polynucleobacter necessarius subsp. necessarius (strain STIR1) OX=452638 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338531</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000717358</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQ--------------GYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQM</Hsp_qseq>
+      <Hsp_hseq>ADLLLEFGIDAVIATNTTISRDAVKGMEFGEEAGGLSGA--PVRNASNI-------VIKALKARLGNQLPIIGVGGIMSGVDAREKIMAGASLVQL</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I                G EAGG  G   P     N+        IK     +     +I  GGI+S  DAR  I  GAS VQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338554</Hit_id>
+  <Hit_def>sp|A4VM41|PYRD_PSEU5 Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas stutzeri (strain A1501) OX=379731 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338554</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2615</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00095121</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>IELISLNVDGIIC-------QGY-------EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMTPLVS</Hsp_qseq>
+      <Hsp_hseq>EAVFQAGMDAIIATNTTLGREGVAGLAHADEAGG-----LSGAPVRDKSTH--TVKVLAQTLGGRLP--IIAVGGITEGRHAAEKIEAGASLVQLYSGFIY----KGPALIREAVDAIAALRS</Hsp_hseq>
+      <Hsp_midline>  +    +D II        +G        EAGG            +  T+    ++         P  +IA GGI   + A   I+ GAS VQ+ + F++           +    +  L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|267115</Hit_id>
+  <Hit_def>sp|Q8FWN5|NANEK_BRUSU Bifunctional enzyme NanE/NanK OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=nanEK PE=3 SV=1</Hit_def>
+  <Hit_accession>267115</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000953237</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGI--ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV</Hsp_qseq>
+      <Hsp_hseq>VPAAELIGEIKRRGRIAMADISTLAEARNALAAGADIIGTTMSGYTGEG------PTPKDPDLDLVA---------HCSRLGSFLIAEGRYNSPQQAGEAIRAGADAVVVGSA-ITRPE-HITGWFRDAVES</Hsp_hseq>
+      <Hsp_midline> P    I + +  G + +   ++L EA   ++   D I     GY   G      P+  D +L             +      FLIA G   S + A   I  GA AV +G+A +   +  +          </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12161</Hit_id>
+  <Hit_def>sp|B9KBQ2|AGLUS_THENN Archaeal-type glutamate synthase [NADPH] OS=Thermotoga neapolitana (strain ATCC 49049 / DSM 4359 / NS-E) OX=309803 GN=gltB PE=3 SV=1</Hit_def>
+  <Hit_accession>12161</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000972629</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQGYEAGG----------HRGN---FDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>AAGMVRAGADYIVIDGIR-GGTGAAPKVTRDHVGIPIEFAIAVVDQRL-----------REEGIRHMASIVVAGGIRNSADVIKAIALGADAVYIGTA</Hsp_hseq>
+      <Hsp_midline>A  ++    D I+  G   GG          H G    F  +V+D+ L               I     ++ AGGI +S D    I  GA AV +GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|267114</Hit_id>
+  <Hit_def>sp|Q8YBP2|NANEK_BRUME Bifunctional enzyme NanE/NanK OS=Brucella melitensis biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) OX=224914 GN=nanEK PE=3 SV=1</Hit_def>
+  <Hit_accession>267114</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00102572</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APGKSTIKKFQDIGILVLVTATSLQEAIELISLNVDGI--ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTV</Hsp_qseq>
+      <Hsp_hseq>VPAAELIGEIKRRGRIAMADISTLAEARNALAAGADIIGTTMSGYTGEG------PTPKDPDLDLVA---------HCSRLGSFLIAEGRYNSPQQAGEAIRAGADAVVVGSA-ITRPE-HITGWFRDAVES</Hsp_hseq>
+      <Hsp_midline> P    I + +  G + +   ++L EA   ++   D I     GY   G      P+  D +L             +      FLIA G   S + A   I  GA AV +G+A +   +  +          </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196111</Hit_id>
+  <Hit_def>sp|E9PU28|IMDH2_RAT Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Rattus norvegicus OX=10116 GN=Impdh2 PE=1 SV=1</Hit_def>
+  <Hit_accession>196111</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00116612</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>FQDIGILVLVTATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>LQVIGGNV-VTA---AQAKNLIDAGVDALRVGMGSGSICITQEVLACG-R----PQATA--------VYKVSEYARRFGVP--VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline> Q IG  V VTA    +A  LI   VD +          I Q   A G R    P              ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196109</Hit_id>
+  <Hit_def>sp|P12268|IMDH2_HUMAN Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Homo sapiens OX=9606 GN=IMPDH2 PE=1 SV=2</Hit_def>
+  <Hit_accession>196109</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00116612</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>FQDIGILVLVTATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>LQVIGGNV-VTA---AQAKNLIDAGVDALRVGMGSGSICITQEVLACG-R----PQATA--------VYKVSEYARRFGVP--VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline> Q IG  V VTA    +A  LI   VD +          I Q   A G R    P              ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196107</Hit_id>
+  <Hit_def>sp|P12269|IMDH2_CRIGR Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Cricetulus griseus OX=10029 GN=IMPDH2 PE=1 SV=1</Hit_def>
+  <Hit_accession>196107</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.6467</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00116612</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>FQDIGILVLVTATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>LQVIGGNV-VTA---AQAKNLIDAGVDALRVGMGCGSICITQEVLACG-R----PQATA--------VYKVSEYARRFGVP--VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline> Q IG  V VTA    +A  LI   VD +          I Q   A G R    P              ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196110</Hit_id>
+  <Hit_def>sp|P24547|IMDH2_MOUSE Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Mus musculus OX=10090 GN=Impdh2 PE=1 SV=2</Hit_def>
+  <Hit_accession>196110</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2615</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00119722</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>FQDIGILVLVTATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>LQVIGGNV-VTA---AQAKNLIDAGVDALRVGMGSGSICITQEVLACG-R----PQATA--------VYKVSEYARRFGVP--VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline> Q IG  V VTA    +A  LI   VD +          I Q   A G R    P              ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338550</Hit_id>
+  <Hit_def>sp|B1J5B5|PYRD_PSEPW Dihydroorotate dehydrogenase (quinone) OS=Pseudomonas putida (strain W619) OX=390235 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338550</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00124714</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQ--------------GYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>AATLMESGMDAVIATNTTMGREGVENLPYGGEAGG-----LSGAPVLEKSTH--IVKVLSAELGGKMP--IIAAGGITEGRHAAEKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L+   +D +I                G EAGG               T+    ++         P  +IAAGGI   + A   I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222450</Hit_id>
+  <Hit_def>sp|A9IN89|LLDD_BART1 L-lactate dehydrogenase OS=Bartonella tribocorum (strain CIP 105476 / IBS 506) OX=382640 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222450</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2615</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00127578</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAREAVQFGADGIVV-----SNHGG----RQLDGVLSTARALPAIAEA---VKNDLVILADSGVRSGLDVVRMIAQGADAVMIGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A E +    DGI+        H G      LD  L T      I +    +     ++A  G+ S  D    I  GA AV +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196129</Hit_id>
+  <Hit_def>sp|Q5KP44|IMDH_CRYNJ Inosine-5&apos;-monophosphate dehydrogenase OS=Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565) OX=214684 GN=CNA04240 PE=3 SV=1</Hit_def>
+  <Hit_accession>196129</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2615</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00130287</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>STIKKFQDI--GILVLV-TATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDN</Hsp_qseq>
+      <Hsp_hseq>EFIKWIKQTYPKIEIIAGNVVTREQAAQLIAAGADGLRIGMGSGSICITQEVMAVG-R----PQ------GTA--VYAVAEFASRFGIPC--IADGGIGNIGHIAKALALGASAVMMGGLLAGTTESPGEYFY</Hsp_hseq>
+      <Hsp_midline>  IK  +     I ++     + ++A +LI+   DG+          I Q   A G R    P        T      + ++ +    P   IA GGI +       +  GASAV MG     T++    Y  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338522</Hit_id>
+  <Hit_def>sp|Q13ZM3|PYRD_PARXL Dihydroorotate dehydrogenase (quinone) OS=Paraburkholderia xenovorans (strain LB400) OX=266265 GN=pyrD PE=3 SV=2</Hit_def>
+  <Hit_accession>338522</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0013359</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VLVTATSLQEAIELISLNVDGIICQGYEAGGHRG--NFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>VIATNTTLS---RTAVAGMQY----GDEAGGLSGKPVFDASNA-----------VIRKLRAEVGETVPIIGVGGIFSGEDARAKMAAGASLVQLYTGFI</Hsp_hseq>
+      <Hsp_midline>V+ T T+L          +      G EAGG  G   FD S              I+K    + E   +I  GGI S +DAR  +  GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222451</Hit_id>
+  <Hit_def>sp|B0T7X2|LLDD_CAUSK L-lactate dehydrogenase OS=Caulobacter sp. (strain K31) OX=366602 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222451</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00143646</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKAAADIGADGIVV-----SNHGG----RQLDGVLSSARALPDIAEAVGDR---LTVLADGGVRSGLDVVRMLALGAKGVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A     +  DGI+        H G      LD  L +      I + +        ++A GG+ S  D    +  GA  V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338361</Hit_id>
+  <Hit_def>sp|A9AJX4|PYRD_BURM1 Dihydroorotate dehydrogenase (quinone) OS=Burkholderia multivorans (strain ATCC 17616 / 249) OX=395019 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338361</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00145104</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRG--NFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>ADTLLRHKIEAVIATNTTLSRAAVQGLPHADEAGGLSGRPVFDASNE-----------VIRKLHAEVGSAVPIIGVGGIFSGDDARAKLAAGASLVQLYTGFI</Hsp_hseq>
+      <Hsp_midline>A  L+   ++ +I           QG     EAGG  G   FD S              I+K    +     +I  GGI S  DAR  +  GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338222</Hit_id>
+  <Hit_def>sp|Q8A9C3|PYRDB_BACTN Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482) OX=226186 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338222</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.4911</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00172315</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAKAVNIP--VIGLGGIMNWKDAVEFMLAGASAIQIGTANFI</Hsp_hseq>
+      <Hsp_midline>   + +    +N P  +I  GGI++ KDA  ++  GASA+Q+GTA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338215</Hit_id>
+  <Hit_def>sp|Q64TN0|PYRDB_BACFR Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Bacteroides fragilis (strain YCH46) OX=295405 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338215</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.4911</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00172315</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAKAVNIP--VIGLGGIMNWKDAVEFMLAGASAIQIGTANFI</Hsp_hseq>
+      <Hsp_midline>   + +    +N P  +I  GGI++ KDA  ++  GASA+Q+GTA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338214</Hit_id>
+  <Hit_def>sp|Q5LCI2|PYRDB_BACFN Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Bacteroides fragilis (strain ATCC 25285 / DSM 2151 / JCM 11019 / NCTC 9343) OX=272559 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338214</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.4911</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00172315</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAKAVNIP--VIGLGGIMNWKDAVEFMLAGASAIQIGTANFI</Hsp_hseq>
+      <Hsp_midline>   + +    +N P  +I  GGI++ KDA  ++  GASA+Q+GTA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196176</Hit_id>
+  <Hit_def>sp|P0C0H6|IMDH_STRPY Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes OX=1314 GN=guaB PE=1 SV=2</Hit_def>
+  <Hit_accession>196176</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196175</Hit_id>
+  <Hit_def>sp|P0DB89|IMDH_STRPQ Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes serotype M3 (strain SSI-1) OX=193567 GN=guaB PE=3 SV=1</Hit_def>
+  <Hit_accession>196175</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196174</Hit_id>
+  <Hit_def>sp|P68839|IMDH_STRP8 Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes serotype M18 (strain MGAS8232) OX=186103 GN=guaB PE=3 SV=2</Hit_def>
+  <Hit_accession>196174</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196173</Hit_id>
+  <Hit_def>sp|Q5X9A3|IMDH_STRP6 Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes serotype M6 (strain ATCC BAA-946 / MGAS10394) OX=286636 GN=guaB PE=1 SV=3</Hit_def>
+  <Hit_accession>196173</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196172</Hit_id>
+  <Hit_def>sp|P0DB88|IMDH_STRP3 Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315) OX=198466 GN=guaB PE=3 SV=1</Hit_def>
+  <Hit_accession>196172</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196171</Hit_id>
+  <Hit_def>sp|P0C0H7|IMDH_STRP1 Inosine-5&apos;-monophosphate dehydrogenase OS=Streptococcus pyogenes serotype M1 OX=301447 GN=guaB PE=3 SV=2</Hit_def>
+  <Hit_accession>196171</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00172968</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YKHFLSKIGVKYPIIQAPMAGVSTPKMAANVAMHGGIGSLPVSGINFTQEEAISKLET</Hsp_qseq>
+      <Hsp_hseq>KTKLADNLTLNIPIITAAMDTVTGSKMAIAIARAGGLGVI---HKNMSITEQAEEVRK</Hsp_hseq>
+      <Hsp_midline>       + +  PII A M  V+  KMA  +A  GG+G +     N +  E   ++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196106</Hit_id>
+  <Hit_def>sp|Q3SWY3|IMDH2_BOVIN Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Bos taurus OX=9913 GN=IMPDH2 PE=2 SV=1</Hit_def>
+  <Hit_accession>196106</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00176104</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>VTATSLQEAIELISLNVDGI----------ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>VTA---AQAKNLIDAGVDALRVGMGSGSICITQEVLACG-R----PQATA--------VYKVSEYARRFGVP--VIADGGIQNVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline>VTA    +A  LI   VD +          I Q   A G R    P              ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196150</Hit_id>
+  <Hit_def>sp|Q12658|IMDH_PNECA Inosine-5&apos;-monophosphate dehydrogenase OS=Pneumocystis carinii OX=4754 GN=GUA1 PE=1 SV=2</Hit_def>
+  <Hit_accession>196150</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8763</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00187812</Hsp_evalue>
+      <Hsp_query-from>228</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>357</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCK</Hsp_qseq>
+      <Hsp_hseq>VSEFASKFGVPT--IADGGIENIGHITKALALGASAVMMGNLLAGTTESPGQYYYRD</Hsp_hseq>
+      <Hsp_midline>+ ++ +    P   IA GGI +       +  GASAV MG     T++    Y    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338249</Hit_id>
+  <Hit_def>sp|A5G3H0|PYRDB_GEOUR Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Geobacter uraniireducens (strain Rf4) OX=351605 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338249</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.4911</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00196538</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVWQVAQAVKVP--VIGIGGIMTATDALEFMLAGATAVQVGTANFL</Hsp_hseq>
+      <Hsp_midline>   + +    +  P  +I  GGI+++ DA  ++  GA+AVQ+GTA FL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338315</Hit_id>
+  <Hit_def>sp|B2UNA2|PYRD_AKKM8 Dihydroorotate dehydrogenase (quinone) OS=Akkermansia muciniphila (strain ATCC BAA-835 / Muc) OX=349741 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338315</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00231765</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>IELISLNVDGIICQ-------GYEA-------GGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>RVFLDEGLDGLIATNTTLSRVGVEANPRHEEAGGLSGAPLTERSTEVIGAFA-------SELKGRIP--IIGVGGIMNGVDAVAKIKAGASLVQLYTGFV</Hsp_hseq>
+      <Hsp_midline>   +   +DG+I         G EA       GG  G        E +  +               P  +I  GGI++  DA   I  GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338336</Hit_id>
+  <Hit_def>sp|Q2KW44|PYRD_BORA1 Dihydroorotate dehydrogenase (quinone) OS=Bordetella avium (strain 197N) OX=360910 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338336</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00270068</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>ADTLLSNGVDGVIATNTTLSREAVQGMPHAAETGG-----LSGAPVHELS----LAVIERLRQRVGSALAIIGVGGILSGQQAREKIAAGADAVQLYTGLI</Hsp_hseq>
+      <Hsp_midline>A  L+S  VDG+I           QG     E GG             L        I++    +     +I  GGI+S + AR  I  GA AVQ+ T  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222488</Hit_id>
+  <Hit_def>sp|P9WND5|LLDD_MYCTU Putative L-lactate dehydrogenase OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=lldD PE=1 SV=1</Hit_def>
+  <Hit_accession>222488</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00273473</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>SLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>TLDDARAVVDRGVDGIVL-----SNHGG----RQLDRAPVPFHLLPHVARELGKHT---EILVDTGIMSGADIVAAIALGARCTLIGRAYL</Hsp_hseq>
+      <Hsp_midline>+L +A  ++   VDGI+        H G      LD     + L   + + L        ++   GI+S  D    I  GA    +G A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222487</Hit_id>
+  <Hit_def>sp|P9WND4|LLDD_MYCTO Putative L-lactate dehydrogenase OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222487</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00273473</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>SLQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>TLDDARAVVDRGVDGIVL-----SNHGG----RQLDRAPVPFHLLPHVARELGKHT---EILVDTGIMSGADIVAAIALGARCTLIGRAYL</Hsp_hseq>
+      <Hsp_midline>+L +A  ++   VDGI+        H G      LD     + L   + + L        ++   GI+S  D    I  GA    +G A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196141</Hit_id>
+  <Hit_def>sp|Q8F4Q4|IMDH_LEPIN Inosine-5&apos;-monophosphate dehydrogenase OS=Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601) OX=189518 GN=guaB PE=3 SV=1</Hit_def>
+  <Hit_accession>196141</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0031257</Hsp_evalue>
+      <Hsp_query-from>227</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>QIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>QTAKHSAKYDVP--VIADGGISNIGDIANSLAIGASTCMMGFMFAGTTEAPGEYFYENGIR</Hsp_hseq>
+      <Hsp_midline>Q  K+    + P  +IA GGI +  D    +  GAS   MG  F  T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338194</Hit_id>
+  <Hit_def>sp|A6TVS0|PYRDB_ALKMQ Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Alkaliphilus metalliredigens (strain QYMF) OX=293826 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338194</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7207</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00315514</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-FL</Hsp_qseq>
+      <Hsp_hseq>LRMVYQVANAVDVP--IIGMGGIMTGEDAVEFILAGASGVAVGTANFI</Hsp_hseq>
+      <Hsp_midline>   + +  N ++ P  +I  GGI++ +DA  +I  GAS V +GTA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338521</Hit_id>
+  <Hit_def>sp|B2JKL9|PYRD_PARP8 Dihydroorotate dehydrogenase (quinone) OS=Paraburkholderia phymatum (strain DSM 17167 / CIP 108236 / LMG 21445 / STM815) OX=391038 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338521</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7207</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.0033652</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QGY----EAGGHRG--NFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>ADTLLRHQFEGVIATNTTLSRTAVQGLPHADEAGGLSGRPVFDASNE---------VIRKLRAEVGGDVP--IIGVGGIFSGADAQAKLDAGASLVQLYTGFI</Hsp_hseq>
+      <Hsp_midline>A  L+    +G+I           QG     EAGG  G   FD S             +  +     + P  +I  GGI S  DA+  +D GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196108</Hit_id>
+  <Hit_def>sp|B0UXP9|IMDH2_DANRE Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Danio rerio OX=7955 GN=impdh2 PE=3 SV=1</Hit_def>
+  <Hit_accession>196108</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1059</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00355069</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>347</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>VYKVSEYARRFGVP--VIADGGIQTVGHIAKALALGASTVMMGSLLAATSEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline>  ++ +Y      P  +IA GGI +       +  GAS V MG+    TS+    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196132</Hit_id>
+  <Hit_def>sp|Q07152|IMDH_DROME Inosine-5&apos;-monophosphate dehydrogenase OS=Drosophila melanogaster OX=7227 GN=ras PE=1 SV=1</Hit_def>
+  <Hit_accession>196132</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7207</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00374074</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCK</Hsp_qseq>
+      <Hsp_hseq>VYQVSTYARQFGVP--VIADGGIQSIGHIVKAIALGASAVMMGSLLAGTSEAPGEYFFSD</Hsp_hseq>
+      <Hsp_midline>  Q+  Y      P  +IA GGI S       I  GASAV MG+    TS+    Y    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338231</Hit_id>
+  <Hit_def>sp|Q6A912|PYRDB_CUTAK Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit OS=Cutibacterium acnes (strain DSM 16379 / KPA171202) OX=267747 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338231</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3355</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00386397</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA-F---LFTS</Hsp_qseq>
+      <Hsp_hseq>VRMIDAVTRVVDIP--VIGMGGVMTSADALELMMAGASAVGVGTANFTDPLACP</Hsp_hseq>
+      <Hsp_midline>   I      ++ P  +I  GG+++S DA   +  GASAV +GTA F   L   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>101</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222449</Hit_id>
+  <Hit_def>sp|Q6G0J2|LLDD_BARQU L-lactate dehydrogenase OS=Bartonella quintana (strain Toulouse) OX=283165 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222449</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7207</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00388538</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PQDAREAVQFGADGIVV-----SNHGG----RQLDGVLSTA---RALPAIAEVVTGDLTILADSGVRSGLDVVRMIAQGADAVMIGRAFI</Hsp_hseq>
+      <Hsp_midline> Q+A E +    DGI+        H G      LD  L T      +      +     ++A  G+ S  D    I  GA AV +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>102</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222524</Hit_id>
+  <Hit_def>sp|B4SMK1|LLDD_STRM5 L-lactate dehydrogenase OS=Stenotrophomonas maltophilia (strain R551-3) OX=391008 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222524</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7207</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00392882</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PDDARDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VQGDLKILADSGIRTGLDVVRMLALGADTVLLGRAFV</Hsp_hseq>
+      <Hsp_midline>  +A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    +  GA  V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>103</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338475</Hit_id>
+  <Hit_def>sp|A6VW35|PYRD_MARMS Dihydroorotate dehydrogenase (quinone) OS=Marinomonas sp. (strain MWYL1) OX=400668 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338475</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3355</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00407165</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIICQ----------GY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL-FTSD------CTVNYDNCKY</Hsp_qseq>
+      <Hsp_hseq>ADTLVDQGVDGIIATNTTLSREAVLGHQFEKEAGGLSGM---PVRDA--STH--VVKVLAEHLKDTLP--IIGVGGISSGADAVEKLQAGARLVQIYSGFIYHGPELIKEAVASTDAYYREL</Hsp_hseq>
+      <Hsp_midline>A  L+   VDGII            G+    EAGG  G     V D    T+    ++         P  +I  GGI S  DA   +  GA  VQ+ + F+    +       + +    + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>104</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338329</Hit_id>
+  <Hit_def>sp|A1K7M2|PYRD_AZOSB Dihydroorotate dehydrogenase (quinone) OS=Azoarcus sp. (strain BH72) OX=418699 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338329</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3355</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00429603</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>TSLQEAIELISLNVDGIIC----------QGY----EAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQM</Hsp_qseq>
+      <Hsp_hseq>TNIADA--LRRHRIDAVIATNTTISRDKVQGVRFAEQQGG-----LSGAPVFEAST-AVVAQLATALGG-ELP--IIAAGGVMDTRSARAKLEAGASLVQL</Hsp_hseq>
+      <Hsp_midline>T++ +A  L    +D +I           QG     + GG               T  +  Q+   L     P  +IAAGG++ ++ AR  ++ GAS VQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>105</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|267125</Hit_id>
+  <Hit_def>sp|Q8R7I7|NANE_CALS4 Putative N-acetylmannosamine-6-phosphate 2-epimerase OS=Caldanaerobacter subterraneus subsp. tengcongensis (strain DSM 15242 / JCM 11007 / NBRC 100824 / MB4) OX=273068 GN=nanE PE=3 SV=2</Hit_def>
+  <Hit_accession>267125</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00432032</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>GAPGKSTIKKFQDI--GILVLVTATSLQEAIELISLNVDGI--ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>GLTTGEFLKRIKEKYPKILVMADISTYEEGIEAEKLGFDLISTTLSGY---------TEYSPELEGPDYELIERLARK---VNVP--IIAEGRIWTPEEAVKALEKGAYAVVVGTA</Hsp_hseq>
+      <Hsp_midline>G      +K+ ++    ILV+   ++ +E IE   L  D I     GY              +   P Y L +++ +    +N P  +IA G I + ++A   ++ GA AV +GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>106</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222525</Hit_id>
+  <Hit_def>sp|B2FIJ0|LLDD_STRMK L-lactate dehydrogenase OS=Stenotrophomonas maltophilia (strain K279a) OX=522373 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222525</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3355</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00444612</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PDDARDAVRFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VQGDLKILADSGIRTGLDVVRMLALGADTVLLGRAFV</Hsp_hseq>
+      <Hsp_midline>  +A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    +  GA  V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>107</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|196112</Hit_id>
+  <Hit_def>sp|F7CYY5|IMDH2_XENTR Inosine-5&apos;-monophosphate dehydrogenase 2 OS=Xenopus tropicalis OX=8364 GN=impdh2 PE=3 SV=1</Hit_def>
+  <Hit_accession>196112</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3355</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00500067</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTT</Hsp_qseq>
+      <Hsp_hseq>VYKVSEYARRFGVP--VIADGGIQTVGHIAKALALGASTVMMGSLLAATTEAPGEYFFSDGIR</Hsp_hseq>
+      <Hsp_midline>  ++ +Y      P  +IA GGI +       +  GAS V MG+    T++    Y       </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>108</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338359</Hit_id>
+  <Hit_def>sp|Q0BFR0|PYRD_BURCM Dihydroorotate dehydrogenase (quinone) OS=Burkholderia ambifaria (strain ATCC BAA-244 / AMMD) OX=339670 GN=pyrD PE=3 SV=2</Hit_def>
+  <Hit_accession>338359</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00564096</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LISLNVDGIIC----------QGY----EAGGHRG--NFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>LLRHKIEAVIATNTTLSRAAVQGLPHADEAGGLSGRPVFDASNE-----------VIRKLHAEVGSAVPIIGVGGIFSGEDARVKLAAGASLVQLYTGFI</Hsp_hseq>
+      <Hsp_midline>L+   ++ +I           QG     EAGG  G   FD S              I+K    +     +I  GGI S +DAR  +  GAS VQ+ T F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>109</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338179</Hit_id>
+  <Hit_def>sp|Q01YA2|PYRDA_SOLUE Putative dihydroorotate dehydrogenase A (fumarate) OS=Solibacter usitatus (strain Ellin6076) OX=234267 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338179</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00603832</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>FDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTA</Hsp_qseq>
+      <Hsp_hseq>LRFVYQAARAVRIP--VIGLGGIATGEDAAEFLIAGASAVEVGTA</Hsp_hseq>
+      <Hsp_midline>   + +    +  P  +I  GGI + +DA  ++  GASAV++GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>110</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|190124</Hit_id>
+  <Hit_def>sp|Q8KFR5|IDI2_CHLTE Isopentenyl-diphosphate delta-isomerase OS=Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) OX=194439 GN=fni PE=3 SV=1</Hit_def>
+  <Hit_accession>190124</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00609193</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>QDIGILVLVTATSLQEAIELISLNVDGIICQGYEAGG----------------HRGNFDPSVLDE----NLPTY-ILF--DQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGA</Hsp_qseq>
+      <Hsp_hseq>KEVGCGISATV-----ARKLADAGVRAIDVAG--AGGISWQKVEECRYLDRFGHEERFSPSALDEFLNWGIPTAECLTSIQTLKRQNPEYDA-LSVISSGGIRNGLDIAKSIALGA</Hsp_hseq>
+      <Hsp_midline>+++G  +  T      A +L    V  I   G  AGG                H   F PS LDE     +PT   L     +K+     +    +I++GGI +  D    I  GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>111</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|338583</Hit_id>
+  <Hit_def>sp|Q21JW9|PYRD_SACD2 Dihydroorotate dehydrogenase (quinone) OS=Saccharophagus degradans (strain 2-40 / ATCC 43961 / DSM 17024) OX=203122 GN=pyrD PE=3 SV=1</Hit_def>
+  <Hit_accession>338583</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00619515</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AIELISLNVDGIIC----------QG----YEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>ADTLVNGNIDGVIATNTTISREAVQGHINADEAGGLSGLPVRDKSTEVIATLS-------AHLQGAMP--IIGVGGIVEGADAQAKIAAGASLVQIYSGFI</Hsp_hseq>
+      <Hsp_midline>A  L++ N+DG+I           QG     EAGG  G        E + T                P  +I  GGI+   DA+  I  GAS VQ+ + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>112</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222546</Hit_id>
+  <Hit_def>sp|B1JPU0|LLDD_YERPY L-lactate dehydrogenase OS=Yersinia pseudotuberculosis serotype O:3 (strain YPIII) OX=502800 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222546</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>113</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222545</Hit_id>
+  <Hit_def>sp|Q66C32|LLDD_YERPS L-lactate dehydrogenase OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222545</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>114</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222544</Hit_id>
+  <Hit_def>sp|A4TKI4|LLDD_YERPP L-lactate dehydrogenase OS=Yersinia pestis (strain Pestoides F) OX=386656 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222544</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>115</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222543</Hit_id>
+  <Hit_def>sp|Q1CGZ1|LLDD_YERPN L-lactate dehydrogenase OS=Yersinia pestis bv. Antiqua (strain Nepal516) OX=377628 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222543</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>116</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222542</Hit_id>
+  <Hit_def>sp|A9R623|LLDD_YERPG L-lactate dehydrogenase OS=Yersinia pestis bv. Antiqua (strain Angola) OX=349746 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222542</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>117</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222541</Hit_id>
+  <Hit_def>sp|Q8ZFV8|LLDD_YERPE L-lactate dehydrogenase OS=Yersinia pestis OX=632 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222541</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>118</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222540</Hit_id>
+  <Hit_def>sp|B2JZQ1|LLDD_YERPB L-lactate dehydrogenase OS=Yersinia pseudotuberculosis serotype IB (strain PB1/+) OX=502801 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222540</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>119</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222539</Hit_id>
+  <Hit_def>sp|Q1C9P0|LLDD_YERPA L-lactate dehydrogenase OS=Yersinia pestis bv. Antiqua (strain Antiqua) OX=360102 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222539</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>120</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|222538</Hit_id>
+  <Hit_def>sp|A7FJF0|LLDD_YERP3 L-lactate dehydrogenase OS=Yersinia pseudotuberculosis serotype O:1b (strain IP 31758) OX=349747 GN=lldD PE=3 SV=1</Hit_def>
+  <Hit_accession>222538</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9503</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00652095</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LQEAIELISLNVDGIICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFL</Hsp_qseq>
+      <Hsp_hseq>PEDAKDAVKFGADGIVV-----SNHGG----RQLDGVLSTARALPAIADA---VKGDITILADSGIRTGLDVVRMIALGADSVLLGRAFV</Hsp_hseq>
+      <Hsp_midline> ++A + +    DGI+        H G      LD  L T      I      +     ++A  GI +  D    I  GA +V +G AF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>121</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|177261</Hit_id>
+  <Hit_def>sp|A9B5I3|HIS4_HERA2 1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase OS=Herpetosiphon aurantiacus (strain ATCC 23779 / DSM 785 / 114-95) OX=316274 GN=hisA PE=3 SV=1</Hit_def>
+  <Hit_accession>177261</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.7947</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00943332</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ICQGYEAGGHRGNFDPSVLDENLPTYILFDQIKKYLNTINEPKFLIAAGGIISSKDARYYIDNGASAVQMGTAFLFTSDCTVNYDNCKYTTVMT</Hsp_qseq>
+      <Hsp_hseq>VAQQWEAAGAARIHIVDLDGAKAGRPTQTSTIAAITKAVSVPVQL--GGGLRDAASIAAAFELGVSDVILGTVAVRNPE-LVAELVRQYGKAIT</Hsp_hseq>
+      <Hsp_midline>+ Q +EA G        +             I      ++ P  L   GG+  +       + G S V +GT  +   +  V     +Y   +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>563972</Statistics_db-num>
+      <Statistics_db-len>203185243</Statistics_db-len>
+      <Statistics_hsp-len>119</Statistics_hsp-len>
+      <Statistics_eff-space>34290288900</Statistics_eff-space>
+      <Statistics_kappa>0.0545775986643178</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>UniRef90_A0A376B3N7 Relat.. :  UniRef90_A0A376B3N7 Relat.. : Composition-based score adjustment conditioned on sequence properties and unconditional composition-based score adjustment is not supported with PSSMs, resetting to default value of standard composition-based statistics </Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
