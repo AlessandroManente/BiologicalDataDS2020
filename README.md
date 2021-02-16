@@ -16,7 +16,7 @@ while inside the folder of the project.
 
 All the remaining operations were executed using a Linux x64 machine, launching the _bash_ files inside the _data_ folder.
 
-All the files needed to execute the code that are not in the _data_ folder are hosted in this OneDrive folder: <https://1drv.ms/u/s!AqCB-obyBHqxhfwhorLjh3IIyPBAlA?e=VSBgFo>
+All the databases needed to execute the code were not included in the repository due to their size, and are hosted in this OneDrive folder: <https://1drv.ms/u/s!AqCB-obyBHqxhfwhorLjh3IIyPBAlA?e=VSBgFo>. After downloading them, place them inside the `data/part_2/original_datasets folder`.
 
 To execute all the project to test all the computations, delete all the data in the `parsed` subfolders in `data/part_1/HMMs` and `data/part_1/PSSMs`.
 
