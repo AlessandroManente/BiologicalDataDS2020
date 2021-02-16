@@ -18,7 +18,7 @@ All the remaining operations were executed using a Linux x64 machine, launching 
 
 All the databases needed to execute the code were not included in the repository due to their size, and are hosted in this OneDrive folder: <https://1drv.ms/u/s!AqCB-obyBHqxhfwhorLjh3IIyPBAlA?e=VSBgFo>. After downloading them, place them inside the `data/part_2/original_datasets folder`.
 
-To execute all the project to test all the computations, delete all the data in the `parsed` subfolders in `data/part_1/HMMs` and `data/part_1/PSSMs`.
+Since the computation of all the metrics for all the models is quite time consuming, we computed them just the first time, saved all the results on .csv files, and just read from them in the Notebook. To recompute from sratch all the metrics to test all the computations, just delete all the data in the `parsed` subfolders in `data/part_1/HMMs` and `data/part_1/PSSMs`.
 
 ## Structure of the Project
 
