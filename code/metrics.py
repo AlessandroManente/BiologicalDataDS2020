@@ -41,13 +41,10 @@ def parse_psiblast():
         path.join('data', 'part_1', 'PSSMs', 'PSSM_{}'.format(a), 'to_parse')
         for a in ['C', 'M', 'O']
     ]
-    #dirs_to_parse = [cur + '\\data\\PSSMs\\PSSM_' + a + '\\to_parse' for
-    #a in ['C', 'M', 'O']]
     dirs_parsed = [
         path.join('data', 'part_1', 'PSSMs', 'PSSM_{}'.format(a), 'parsed')
         for a in ['C', 'M', 'O']
     ]
-    #dirs_parsed = [cur + '\\data\\PSSMs\\PSSM_' + a + '\\parsed' for a in ['C', 'M', 'O']]
 
     parsed_dfs = {}
 
@@ -96,7 +93,7 @@ def psiblast_parser(dir_to_parse, filename, extension, dir_parsed):
     return hits_df
 
 
-def metrics_sequences(df, gt):
+def metrics_computation_sequences(df, gt):
     gt_acc = gt.accession.to_list()
     df = df.drop_duplicates(subset=['ids'])
     df_ids = df.ids.to_list()
@@ -140,11 +137,11 @@ def metrics_sequences(df, gt):
     ]
 
 
-def metrics_8(gt,
-              h_threshold=False,
-              hi_threshold=False,
-              p_threshold=False,
-              smart_update=True):
+def metrics_sequences(gt,
+                      h_threshold=False,
+                      hi_threshold=False,
+                      p_threshold=False,
+                      smart_update=True):
     """ 
     Compute all the various metrics for our models (point 8 of the project)
     - gt: dataframe containing ground truth proteins;
@@ -180,21 +177,15 @@ def metrics_8(gt,
     else:
         p_threshold_name = p_threshold
 
-    # if 'metrics_8_{0}_{1}_{2}.csv'.format(h_threshold_name, hi_threshold_name,
-    # p_threshold_name) in os.listdir(cur + '\\data\\metrics'):
-    if 'metrics_8_{0}_{1}_{2}.csv'.format(h_threshold_name, hi_threshold_name,
-                                          p_threshold_name) in os.listdir(
-                                              path.join(
-                                                  'data', 'part_1',
-                                                  'metrics')):
-        # old_metrics_df = pd.read_csv(cur +
-        # '\\data\\metrics\\metrics_8_{0}_{1}_{2}.csv'.format(h_threshold_name,
-        # hi_threshold_name, p_threshold_name), index_col=0)
+    if 'metrics_sequences_{0}_{1}_{2}.csv'.format(
+            h_threshold_name, hi_threshold_name,
+            p_threshold_name) in os.listdir(
+                path.join('data', 'part_1', 'metrics')):
         old_metrics_df = pd.read_csv(path.join(
             'data', 'part_1', 'metrics',
-            'metrics_8_{0}_{1}_{2}.csv'.format(h_threshold_name,
-                                               hi_threshold_name,
-                                               p_threshold_name)),
+            'metrics_sequences_{0}_{1}_{2}.csv'.format(h_threshold_name,
+                                                       hi_threshold_name,
+                                                       p_threshold_name)),
                                      index_col=0)
     else:
         old_metrics_df = pd.DataFrame()
@@ -212,14 +203,16 @@ def metrics_8(gt,
             #If smartupdate = True, then compute only new entries
             if (df not in old_metrics_df.index.to_list()):
                 # print("Computing metrics for: {}".format(df))
-                metrics.append(metrics_sequences(parsed_domtblouts[df], gt))
+                metrics.append(
+                    metrics_computation_sequences(parsed_domtblouts[df], gt))
             else:
                 # print("Recycling metrics for {}".format(df))
                 metrics.append(list(old_metrics_df.loc[df].values))
         else:
             # if smartupdate = False, we recompute from scratch all the metrics
             # print("Computing metrics for: {}".format(df))
-            metrics.append(metrics_sequences(parsed_domtblouts[df], gt))
+            metrics.append(
+                metrics_computation_sequences(parsed_domtblouts[df], gt))
 
     for df in parsed_psiblast.keys():
         if p_threshold:
@@ -231,23 +224,25 @@ def metrics_8(gt,
             #If smartupdate = True, then compute only new entries
             if (df not in old_metrics_df.index.to_list()):
                 # print("Computing metrics for: {}".format(df))
-                metrics.append(metrics_sequences(parsed_psiblast[df], gt))
+                metrics.append(
+                    metrics_computation_sequences(parsed_psiblast[df], gt))
             else:
                 #  print("Recycling metrics for {}".format(df))
                 metrics.append(list(old_metrics_df.loc[df].values))
         else:
             # if smartupdate = False, we recompute from scratch all the metrics
             # print("Computing metrics for: {}".format(df))
-            metrics.append(metrics_sequences(parsed_psiblast[df], gt))
+            metrics.append(
+                metrics_computation_sequences(parsed_psiblast[df], gt))
 
     metrics_df = pd.DataFrame(metrics, index_metrics, columns_metrics)
 
     metrics_df.to_csv(
         path.join(
             'data', 'part_1', 'metrics',
-            'metrics_8_{0}_{1}_{2}.csv'.format(h_threshold_name,
-                                               hi_threshold_name,
-                                               p_threshold_name)))
+            'metrics_sequences_{0}_{1}_{2}.csv'.format(h_threshold_name,
+                                                       hi_threshold_name,
+                                                       p_threshold_name)))
 
     return metrics_df, parsed_tblouts, parsed_domtblouts, parsed_psiblast
 
@@ -264,17 +259,12 @@ def dfs_to_dicts(parsed_domtblouts, parsed_psiblast):
             df_not_repeated.setdefault(row['ids'], []).append([
                 row['from_ali_coord'], row['to_ali_coord'], row['target_len']
             ])
-            # else:
-            #     df_not_repeated.setdefault(row['ids'],[]).append([row['hit_start'], row['hit_end'], row['protein_length']])
 
         list_dfs_not_repeated.append(df_not_repeated)
 
     for df in parsed_psiblast.keys():
         df_not_repeated = {}
         for i, row in parsed_psiblast[df].iterrows():
-            # if 'domtblout' in df:
-            #     df_not_repeated.setdefault(row['ids'],[]).append([row['from_ali_coord'], row['to_ali_coord'], row['target_len']])
-            # else:
             df_not_repeated.setdefault(row['ids'], []).append(
                 [row['hit_start'], row['hit_end'], row['protein_length']])
 
@@ -333,8 +323,6 @@ def compute_con_matrix_9(parsed_domtblouts, parsed_psiblast, gt):
 
     conf_matrix = []
 
-    #conf_df = pd.DataFrame(columns=['true_positives', 'true_negatives', 'false_positives', 'false_negatives'])
-
     for k, (df_name, df_dict) in enumerate(dict_dfs.items()):
         gt_int_df = [x for x in gt_acc
                      if x in list(df_dict.keys())]  # ids both in gt and df
@@ -362,7 +350,6 @@ def compute_con_matrix_9(parsed_domtblouts, parsed_psiblast, gt):
         fn_ = 0
 
         for j, (ids, lists) in enumerate(df_dict.items()):
-            # case 1 of Riccà's schema
             if ids in gt_int_df:
                 row_df = np.zeros((int(lists[0][2]), ), dtype=int)
 
@@ -375,7 +362,6 @@ def compute_con_matrix_9(parsed_domtblouts, parsed_psiblast, gt):
 
                 new_logic_case_1_vectorized(row_gt, row_df)
 
-            # case 2 of Riccà's schema
             elif ids in df_not_gt:
                 row_df = np.zeros((int(lists[0][2]), ), dtype=int)
 
@@ -386,7 +372,6 @@ def compute_con_matrix_9(parsed_domtblouts, parsed_psiblast, gt):
 
                 new_logic_case_2_vectorized(row_gt, row_df)
 
-        # case 3 of Riccà's schema
         if gt_not_df != []:
             for ids in gt_not_df:
                 row_gt = np.zeros((gt[gt.accession == ids].iloc[0, 3], ),
@@ -450,12 +435,12 @@ def metrics_computation(df):
     return metrics_list
 
 
-def metrics_9(parsed_domtblouts,
-              parsed_psiblast,
-              gt,
-              h_threshold=False,
-              hi_threshold=False,
-              p_threshold=False):
+def metrics_positions(parsed_domtblouts,
+                      parsed_psiblast,
+                      gt,
+                      h_threshold=False,
+                      hi_threshold=False,
+                      p_threshold=False):
     index_metrics = list(parsed_domtblouts.keys()) + list(
         parsed_psiblast.keys())
     columns_metrics = [
@@ -498,21 +483,17 @@ def metrics_9(parsed_domtblouts,
     conf_df = compute_con_matrix_9(parsed_domtblouts, parsed_psiblast, gt)
 
     # at the beginning: if file already there and it is not to be modified -> read it instead of computing it
-    # if 'metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name, hi_threshold_name,
+    # if 'metrics_positions_{0}_{1}_{2}.csv'.format(h_threshold_name, hi_threshold_name,
     # p_threshold_name) in os.listdir(cur + '\\data\\metrics'):
-    if 'metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name, hi_threshold_name,
-                                          p_threshold_name) in os.listdir(
-                                              path.join(
-                                                  'data', 'part_1',
-                                                  'metrics')):
-        # old_metrics_df = pd.read_csv(cur +
-        # '\\data\\metrics\\metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name,
-        # hi_threshold_name, p_threshold_name), index_col=0)
+    if 'metrics_positions_{0}_{1}_{2}.csv'.format(
+            h_threshold_name, hi_threshold_name,
+            p_threshold_name) in os.listdir(
+                path.join('data', 'part_1', 'metrics')):
         old_metrics_df = pd.read_csv(path.join(
             'data', 'part_1', 'metrics',
-            'metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name,
-                                               hi_threshold_name,
-                                               p_threshold_name)),
+            'metrics_positions_{0}_{1}_{2}.csv'.format(h_threshold_name,
+                                                       hi_threshold_name,
+                                                       p_threshold_name)),
                                      index_col=0)
 
         if old_metrics_df.index.to_list() == index_metrics:
@@ -528,9 +509,9 @@ def metrics_9(parsed_domtblouts,
             metrics_df.to_csv(
                 path.join(
                     'data', 'part_1', 'metrics',
-                    'metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name,
-                                                       hi_threshold_name,
-                                                       p_threshold_name)))
+                    'metrics_positions_{0}_{1}_{2}.csv'.format(
+                        h_threshold_name, hi_threshold_name,
+                        p_threshold_name)))
 
             return metrics_df, conf_df
 
@@ -543,9 +524,8 @@ def metrics_9(parsed_domtblouts,
         metrics_df.to_csv(
             path.join(
                 'data', 'part_1', 'metrics',
-                'metrics_9_{0}_{1}_{2}.csv'.format(h_threshold_name,
-                                                   hi_threshold_name,
-                                                   p_threshold_name)))
+                'metrics_positions_{0}_{1}_{2}.csv'.format(
+                    h_threshold_name, hi_threshold_name, p_threshold_name)))
 
         return metrics_df, conf_df
 
@@ -590,7 +570,7 @@ def plot_metrics_summary(metrics_df,
                          threshold_pssm_e_value=None):
     if num == 8:
         metrics_df = metrics_df.iloc[:, 1:]
-        
+
     x = np.arange(metrics_df.shape[1])
 
     list_bars = [
@@ -616,9 +596,15 @@ def plot_metrics_summary(metrics_df,
 
     ax.legend([convert(el.split('.')[0]) for el in metrics_df.index.to_list()])
 
+    if num == 8:
+        num = 'sequences'
+    else:
+        num = 'positions'
+
     plt.savefig(
         path.join(
-            'data', 'part_1', 'metrics', 'best_models_{0}_{1}_{2}_{3}.png'.format(
+            'data', 'part_1', 'metrics',
+            'best_models_{0}_{1}_{2}_{3}.png'.format(
                 remove_dot(threshold_hmms_e_value),
                 remove_dot(threshold_hmms_i_e_value),
                 remove_dot(threshold_pssm_e_value), num)))
@@ -640,7 +626,7 @@ def convert(l):
         sigla.append("P")
     elif l[0] == "hmmsearch":
         sigla.append("H")
-    
+
     sigla.append(l[2])
     if l[3] == "1":
         sigla.append("1")
@@ -648,11 +634,11 @@ def convert(l):
         sigla.append("2")
     elif l[3] == "4":
         sigla.append("3")
-    
+
     if "denoised1" in l:
         sigla.append("d")
-    
-    if sigla[0]=="P" and l[-1]=="1iterations":
+
+    if sigla[0] == "P" and l[-1] == "1iterations":
         sigla.append("1_it")
 
     return "".join(sigla)

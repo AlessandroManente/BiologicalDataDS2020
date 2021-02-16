@@ -130,19 +130,14 @@ def get_data(url, team):
     gt['start'] = entries['entry_protein_locations_fragments_start']
     gt['end'] = entries['entry_protein_locations_fragments_end']
     gt['length'] = entries['protein_length']
-    # gt.to_csv(cur+'\\data_team_'+str(team)+'\\ground_truth\\ground_truth.csv')
     gt.to_csv(path.join('data', 'part_1', 'ground_truth', 'ground_truth.csv'))
 
     return metadata, entries, gt
 
 
 def checkpoint(df_metadata, df_entries, team):
-    # df_metadata.to_csv(cur + '\\data_team_' + str(team) +
-    #                    '\\ground_truth\\metadata\\metadata.csv')
     df_metadata.to_csv(
         path.join('data', 'part_1', 'ground_truth', 'metadata',
                   'metadata.csv'))
-    # df_entries.to_csv(cur + '\\data_team_' + str(team) +
-    #                   '\\ground_truth\\entries\\entries.csv')
     df_entries.to_csv(
         path.join('data', 'part_1', 'ground_truth', 'entries', 'entries.csv'))

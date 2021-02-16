@@ -49,12 +49,10 @@ def my_split(path):
 
 
 def parse_hmms():
-    # dirs_to_parse = [cur + '\\data\\HMMs\\HMM_' + a + '\\to_parse' for a in ['C', 'M', 'O']]
     dirs_to_parse = [
         path.join('data', 'part_1', 'HMMs', 'HMM_{}'.format(a), 'to_parse')
         for a in ['C', 'M', 'O']
     ]
-    # dirs_parsed = [cur + '\\data\\HMMs\\HMM_' + a + '\\parsed' for a in ['C', 'M', 'O']]
     dirs_parsed = [
         path.join('data', 'part_1', 'HMMs', 'HMM_{}'.format(a), 'parsed')
         for a in ['C', 'M', 'O']
@@ -69,33 +67,17 @@ def parse_hmms():
             # print("Parsing {} ...".format(filename))
             filename = filename.split('.')
             if filename[1] == 'tblout':
-                # parsed_dfs_tblout['.'.join(filename)] = read_tblout(
-                #     dir + '\\', filename[0], filename[1], dirs_parsed[i])
                 parsed_dfs_tblout['.'.join(filename)] = read_tblout(
                     dir, filename[0], filename[1], dirs_parsed[i])
             else:
-                # parsed_dfs_domtblout['.'.join(filename)] = read_domtblout(
-                #     dir + '\\', filename[0], filename[1], dirs_parsed[i])
                 parsed_dfs_domtblout['.'.join(filename)] = read_domtblout(
                     dir, filename[0], filename[1], dirs_parsed[i])
 
     return parsed_dfs_tblout, parsed_dfs_domtblout
 
 
-#def parse_domtblouts():
-#    dirs = [cur + '\data\HMMs\HMM_' + a + '\hmmsearch_out_' + a + '_1.domtblout' for a in ['C', 'M', 'O']]
-#    parsed_dfs = []
-
-#    for filename in dirs:
-#        parsed_dfs.append(read_domtblout(filename))
-
-#    return parsed_dfs[0], parsed_dfs[1], parsed_dfs[2]
-
-
 def read_tblout(dir_to_parse, filename, extension, dir_parsed):
     if filename + '_tblout.csv' not in os.listdir(dir_parsed):
-        # parser = HMMparser(dir_to_parse + '\\' + filename + '.' + extension,
-        #                    'tblouts')
         parser = HMMparser(path.join(dir_to_parse, filename + '.' + extension),
                            'tblouts')
         parsed = parser.hmmscanParser()
@@ -107,11 +89,9 @@ def read_tblout(dir_to_parse, filename, extension, dir_parsed):
 
         parsed_df['ids'] = parsed_df['target name'].apply(
             lambda x: x.replace('|', '-').split('-')[1])
-        # parsed_df.to_csv(dir_parsed + '\\' + filename + '_tblout.csv')
         parsed_df.to_csv(path.join(dir_parsed, filename + '_tblout.csv'))
 
     else:
-        # parsed_df = pd.read_csv(dir_parsed + '\\' + filename + '_tblout.csv')
         parsed_df.to_csv(path.join(dir_parsed, filename + '_tblout.csv'))
 
     return parsed_df
@@ -119,8 +99,6 @@ def read_tblout(dir_to_parse, filename, extension, dir_parsed):
 
 def read_domtblout(dir_to_parse, filename, extension, dir_parsed):
     if filename + '_domtblout.csv' not in os.listdir(dir_parsed):
-        # parser = HMMparser(dir_to_parse + '\\' + filename + '.' + extension,
-        #                    'domtblouts')
         parser = HMMparser(
             path.join(dir_to_parse, filename + '.' + extension, 'domtblouts'))
         parsed = parser.hmmscanParser()
@@ -147,12 +125,9 @@ def read_domtblout(dir_to_parse, filename, extension, dir_parsed):
             'from_ali_coord', 'to_ali_coord', 'acc', 'description_of_target'
         ]]
 
-        # parsed_df.to_csv(dir_parsed + '\\' + filename + '_domtblout.csv')
         parsed_df.to_csv(path.join(dir_parsed, filename + '_domtblout.csv'))
 
     else:
-        # parsed_df = pd.read_csv(dir_parsed + '\\' + filename +
-        #                         '_domtblout.csv')
         parsed_df = pd.read_csv(
             path.join(dir_parsed, filename + '_domtblout.csv'))
 

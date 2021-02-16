@@ -42,8 +42,6 @@ def parse_tmalign_out(filename):
     Takes as input the path of the .out file provided by TM-Align.
     Returns both the RMSD and the TMSCORE (the first one provided in the .out file) """
     lines = []
-    # temp_path =
-    # ".\\data\\part_2\\original_datasets\\family_structures\\temp"
     temp_path = path.join('data', 'part_2', 'original_datasets',
                           'family_structures', 'temp')
     with open(temp_path + '\\' + filename, 'r') as f:
@@ -62,16 +60,11 @@ def create_rmsd_matrix(best_model):
     stores them into a matrix and saves it into a .csv.
     If the csv already exists, the function just reads it."""
 
-    # model_path =
-    # ".\\data\\part_2\\original_datasets\\family_structures\\pdbs_{}".format(best_model)
     model_path = path.join('data', 'part_2', 'original_datasets',
                            'family_structures', 'pdbs_{}'.format(best_model))
 
     # Check if the rmsds_....csv file is already present. If so, just read it.
     if 'rmsds_{}.csv'.format(best_model) in os.listdir(model_path):
-        # rmsds_df = pd.read_csv(model_path + '\\' + 'rmsds_' + best_model +
-        #                        '.csv',
-        #                        index_col=0)
         rmsds_df = pd.read_csv(path.join(model_path,
                                          'rmsds_{}.csv'.format(best_model)),
                                index_col=0)
@@ -80,7 +73,6 @@ def create_rmsd_matrix(best_model):
     else:
         rmsd_dict = {}
 
-        # dir_to_parse = ".\\data\\part_2\\original_datasets\\family_structures\\temp"
         dir_to_parse = path.join('data', 'part_2', 'original_datasets',
                                  'family_structures', 'temp')
         files = os.listdir(dir_to_parse)
@@ -94,7 +86,6 @@ def create_rmsd_matrix(best_model):
         rmsd_df = pd.DataFrame.from_dict(rmsd_dict)
         rmsd_df.index = rmsd_df.index.map(lambda x: x[3:])
         rmsd_df.columns = rmsd_df.columns.map(lambda x: x[3:])
-        # rmsd_df.to_csv(model_path + '\\' + 'rmsds_' + best_model + '.csv')
         rmsd_df.to_csv(path.join(model_path,
                                  'rmsds_{}.csv'.format(best_model)))
 
@@ -107,15 +98,10 @@ def create_tmscores_matrix(best_model):
    stores them into a matrix and saves it into a .csv.
     If the csv already exists, the function just reads it."""
 
-    # model_path = ".\\data\\part_2\\original_datasets\\family_structures\\pdbs_{}".format(
-    #     best_model)
     model_path = path.join('data', 'part_2', 'original_datasets',
                            'family_structures', 'pdbs_{}'.format(best_model))
 
     if 'tmscores_{}.csv'.format(best_model) in os.listdir(model_path):
-        # tmscore_df = pd.read_csv(model_path + '\\' + 'tmscores_' + best_model +
-        #                          '.csv',
-        #                          index_col=0)
         tmscore_df = pd.read_csv(path.join(
             model_path, 'tmscores_{}.csv'.format(best_model)),
                                  index_col=0)
@@ -124,7 +110,6 @@ def create_tmscores_matrix(best_model):
 
         tmscore_dict = {}
 
-        # dir_to_parse = ".\\data\\part_2\\original_datasets\\family_structures\\temp"
         dir_to_parse = path.join('data', 'part_2', 'original_datasets',
                                  'family_structures', 'temp')
         files = os.listdir(dir_to_parse)
@@ -138,27 +123,24 @@ def create_tmscores_matrix(best_model):
         tmscore_df = pd.DataFrame.from_dict(tmscore_dict)
         tmscore_df.index = tmscore_df.index.map(lambda x: x[3:])
         tmscore_df.columns = tmscore_df.columns.map(lambda x: x[3:])
-        # tmscore_df.to_csv(model_path + '\\' + 'tmscores_' + best_model +
-        #                   '.csv')
         tmscore_df.to_csv(
             path.join(model_path, 'tmscores_{}.csv'.format(best_model)))
         return tmscore_df
 
 
 def clear_temp_folder():
-    # temp_dir = ".\\data\\part_2\\original_datasets\\family_structures\\temp"
     temp_dir = path.join('data', 'part_2', 'original_datasets',
                          'family_structures', 'temp')
     files = os.listdir(temp_dir)
     for filename in files:
         if filename.split('.')[-1] == 'out':
-            # os.remove(temp_dir + '\\' + filename)
             os.remove(path.join(temp_dir, filename))
     return
 
 
 def plot_heatmap(path_mat, filename, header=''):
-    rmsdmatrix = pd.read_csv(path.join(path_mat, filename + '.csv'), index_col=0)
+    rmsdmatrix = pd.read_csv(path.join(path_mat, filename + '.csv'),
+                             index_col=0)
     col = list(rmsdmatrix.columns)
     col2 = {}
     for i in range(len(col)):

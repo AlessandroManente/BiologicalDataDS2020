@@ -2,6 +2,8 @@
 
 Repository for Biological Data course project, Master Degree in Data Science at University of Padua.
 
+![Image](./data/part_2/original_datasets/family_structures/pdbs_psiblast_M_4_denoised1_uniref90_1iterations/common_core_visualized.png "Image")
+
 ## Requirements
 
 All the required Python packages can be install executing the code
